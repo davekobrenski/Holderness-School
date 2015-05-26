@@ -1,0 +1,318 @@
+
+.cal-context {
+	.cal-row-head {
+		.cal-cell1 {
+			font-family: @small-caps-fontface;
+			font-weight: @small-caps-fontweight;
+			text-transform: @small-caps-transform;
+		}
+	}
+	
+	.cal-month-box {
+		#cal-slide-content {
+			li {
+				span.event {
+					display:none;
+				}
+				a.event-item {
+					color: @holderness-blue;
+					.tme {
+						font-family: @small-caps-fontface;
+						font-weight: @small-caps-fontweight;
+						text-transform: @small-caps-transform;
+						font-size: .95em;
+						display: inline-block;
+						min-width: 60px;
+					}
+				}
+			}
+		}
+	}
+	
+	.cal-before-eventlist {
+		.cal-month-day {
+			.day-num {
+				font-family: @small-caps-fontface;
+				font-weight: @small-caps-fontweight;
+				text-transform: @small-caps-transform;
+			}	
+			&.cal-day-today {
+				.day-num {
+					font-size: 1.2em;
+				}
+			}
+			&.cal-day-inmonth {		
+				.day-num {
+					color: #666;
+					opacity: .5;
+				}
+				.has-events {
+					color: @holderness-blue;
+					font-size: 1.25em;
+					opacity: .9;
+				}
+			}
+			.events-list {
+				display: none;
+			}
+			#cal-week-box {
+				display: none !important;
+			}
+		}
+	}
+}
+
+/* for the content blocks and templates */
+.primary, .secondary, .tertiary {
+	.page-content {
+		.inner-content {
+			.block-inner {
+				&.widget-content {
+					.cal-full-block {
+						.cal-list-view {
+							.widget-header {
+								display: block;
+							}
+						}
+					}
+				}
+				.cal-full-block {
+					.cal-options {
+						padding-bottom: 10px;
+						h3 {
+							font-size:1.7em;
+						}
+					}
+					
+					.cal-grid-view {
+						
+					}
+					
+					.cal-list-view {
+						.widget-header {
+							display: none;
+						}
+					}
+					
+					.event-list-title {
+						margin-bottom: 32px;
+						font-size:1.7em;
+					}
+					.ev-helper-wrap {
+						position: relative;
+						.helper {
+							display: block;
+							position: absolute;
+							bottom: -5px;
+							width: 100%;
+							text-align: center;
+							line-height: 1em;
+							font-size: 1.4em;
+							background: #fff;
+							opacity: .5;
+							padding: 5px 0 1px;
+							> i {
+								color: #8c8c8c;
+							}
+						}
+					}
+					.events-list-wrap {
+						max-height: 440px;
+						overflow: auto;	
+					}
+					.event-output-list {
+						//the ul element that holds the month's events in list form
+						> li {
+							margin-bottom: 12px;
+							&:after {
+								content: "";
+								display: table;
+								clear: both;
+							}
+							.day {
+								float: left;
+								margin-right: 22px;
+								margin-top: 6px;
+								> span {
+									display: inline-block;
+									width: 92px;
+									height: 92px;
+									text-align: center;
+									overflow: hidden;
+									background: fade(@holderness-blue, 80%);
+									font-family: @small-caps-fontface;
+									line-height: 84px;
+									color: #fff;
+									font-size: 3em;
+								}
+							}
+							> ul {
+								//float: left;
+								margin-left: 115px;
+								> li {
+									margin-bottom: 9px;
+									.title {
+										font-family: @small-caps-fontface;
+										font-weight: @small-caps-fontweight;
+										text-transform: @small-caps-transform;
+										color: @holderness-blue;
+										font-size: 1.1em;
+									}
+									.description {
+										display: block;
+										p {
+											margin: 0 0 9px;
+											line-height: 1.4em;
+											&:last-child { 
+												//margin-bottom: 0;
+											}
+										}
+									}
+									.location {
+										display: block;
+										color: #828282;
+									}
+								}
+							}
+						}
+					}
+					.pagination-contain {
+						text-align: center;
+						.event-pages.pagination {
+							> li {
+								&.first, &.last {
+									display: none;
+								}
+								&.prev, &.next {
+									> a {
+										color: @holderness-blue;
+										padding: 8px 12px;
+									}
+								}
+								&.active {
+									> a {
+										background: none;
+										color: @holderness-blue;
+									}
+								}
+								> a {
+									font-family: @small-caps-fontface;
+									font-weight: @small-caps-fontweight;
+									border: none;
+									color:#999;
+									font-size: 1.3em;
+								}
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+
+
+//secondary level page only
+.secondary {
+	.page-content {
+		.inner-content {
+			.content-block {
+				&.type-calendar-events {
+					//widget blocks
+					.widget-content {
+						background: #fff;
+						.widget {
+							background: #fff;
+							.cal-grid-view {
+								padding: 16px 12px;
+								.cal-options {
+									h3 {
+										font-size:1.4em;
+									}
+								}
+							}
+							.cal-list-view {
+								.event-list-title {
+									font-size:1.4em;
+								}
+								.cal-list-view-inner {
+									padding: 16px 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//tertiary level page only
+.tertiary {
+	.page-content {
+		.inner-content {
+			.content-block {
+				&.type-calendar-events {
+					&.col-md-8, &.col-md-7, &.col-md-6, &.col-md-5, &.col-md-4, &.col-md-3, &.col-md-2 {
+						.widget {
+							.cal-grid-view {
+								.cal-month-box {
+									border: none;
+									.cal-row-fluid {
+										border: none;
+									}
+									.cal-cell {
+										border: none;
+										min-height: 40px;
+										.cal-month-day {
+											height: 40px;
+											.day-num[data-cal-date] {
+												&.pull-right {
+													margin: 0 auto;
+													float: none !important;
+													display: block;
+													text-align: center;
+												}
+											}
+											#cal-day-tick {
+												display: none !important;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					.widget-content {
+						background: transparent !important;
+						.widget {
+							background: transparent !important;
+							padding: 0 !important;
+							.cal-grid-view {
+								padding: 30px 30px 1px;
+								background: #fff;
+								margin-bottom: 24px;
+							}
+							.cal-list-view {
+								.cal-list-view-inner {
+									background: #fff;
+									padding: 28px 30px 30px;
+									.event-output-list {
+										> li {
+											.day {
+												> span {
+													background: #949EC2; 
+												}
+											}
+										}
+									}
+								}
+							}
+								
+						}
+					}
+				}
+			}
+		}
+	}
+}

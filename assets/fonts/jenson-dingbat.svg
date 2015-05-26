@@ -1,0 +1,1837 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<metadata>
+Created by FontXChange 20110222 at Tue Feb 24 07:44:05 2015
+ By David Kobrenski
+(C) 2000 Adobe Systems Incorporated. All Rights Reserved.
+</metadata>
+<defs>
+<font id="AdobeJensonPro-Regular" horiz-adv-x="600" >
+  <font-face 
+    font-family="AdobeJensonPro"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="0 0 5 0 0 0 0 0 0 0"
+    ascent="720"
+    descent="-280"
+    cap-height="708"
+    bbox="52 -274 965 708"
+    underline-thickness="50"
+    underline-position="-25"
+    unicode-range="U+000D-FE60"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name="A" unicode="A" horiz-adv-x="1017" 
+d="M747 301h-1c-7 0 -15 -1 -22 -2c-16 -3 -39 -19 -63 -41l-29 -26c-19 -17 -49 -29 -56 -29c-5 0 -9 3 -6 6c2 3 6 12 13 26s11 31 12 50c1 10 2 18 2 25v18c17 4 59 22 96 57c9 -5 21 -7 36 -7c9 0 27 11 43 27s29 36 29 53c0 11 -4 21 -20 32c-17 12 -42 27 -42 40
+c0 5 1 9 2 14s7 12 17 22c16 16 24 34 24 55c0 25 -16 48 -23 48c-3 0 -5 -1 -5 -3c0 -3 0 -9 -1 -20c-2 -22 -23 -33 -51 -44c-15 -5 -29 -11 -43 -16c-32 -13 -49 -41 -49 -64c0 -19 8 -39 21 -52c13 -14 22 -25 26 -33c3 -9 5 -16 5 -23s-1 -14 -12 -21
+c-5 -7 -37 -21 -57 -28c-8 52 -23 92 -41 121c-18 28 -39 47 -59 62c-3 2 -1 6 5 12c8 7 32 28 54 49l29 29c9 8 14 13 15 14s2 8 2 13s-1 11 -4 12c-1 1 -5 3 -10 6c-11 7 -23 15 -33 21c-5 3 -8 4 -9 4c-7 0 -18 -10 -21 -18c-7 -21 -19 -41 -31 -56
+c-13 -15 -28 -26 -37 -30c-23 -11 -50 -17 -77 -21s-52 -5 -65 -5c-31 0 -54 8 -77 19c-1 0 -3 -1 -6 -4l-12 -10l-11 -11c-4 -3 -6 -5 -7 -6c-2 -1 -3 -3 -3 -4c0 -2 1 -5 3 -10c12 -43 8 -90 -12 -117c0 -3 1 -6 4 -9c4 -6 11 -12 17 -15c3 -1 4 -2 5 -2c3 0 5 3 8 10
+c3 6 5 13 7 22c4 16 7 35 7 46c0 15 25 28 59 37c34 8 76 13 112 10c-15 -16 -28 -40 -28 -79c0 -47 22 -81 55 -102c32 -21 75 -30 119 -27v-14c0 -11 -4 -45 -27 -66c-16 -15 -40 -28 -67 -28c-32 0 -56 26 -71 77c-4 16 -18 33 -29 37c-7 3 -28 9 -51 15
+c-24 6 -50 11 -67 11c-21 0 -28 -2 -39 -13c-27 -24 -35 -51 -35 -82c0 -12 2 -21 9 -32s12 -28 12 -43c0 -27 -30 -44 -53 -44c-17 0 -34 10 -34 37c0 19 4 27 13 43c2 2 2 4 0 7c-3 1 -13 7 -22 12s-19 10 -22 10c-6 0 -10 -2 -12 -7c-3 -4 -4 -19 -4 -30
+c0 -20 6 -40 14 -56c7 -16 16 -29 21 -34c8 -9 14 -16 19 -21s11 -13 18 -23c16 -23 43 -39 68 -50s49 -15 61 -15c9 0 20 3 34 9c27 11 51 39 72 64l30 33c19 19 36 31 55 31c21 0 33 -4 36 -13c3 -2 3 -9 0 -21c-1 -7 -5 -24 -13 -44c-8 -21 -19 -44 -32 -64
+c-29 -40 -49 -74 -49 -125c0 -48 28 -84 52 -109c32 -35 75 -52 112 -52c20 0 37 3 52 10c29 13 38 22 38 38c0 5 -2 7 -5 6c-9 -9 -25 -12 -32 -12c-11 0 -27 6 -27 29c0 17 11 45 42 45c8 0 22 1 35 -10c24 11 40 21 40 44c0 21 -6 51 -53 79c-16 9 -34 20 -49 37
+s-25 42 -25 78c0 29 2 42 10 53c2 3 6 2 11 -3c1 -2 5 -6 12 -12s14 -13 23 -20c16 -16 34 -31 45 -39c9 -8 28 -19 49 -28c20 -9 41 -17 54 -17c27 0 71 12 92 31l18 17c7 7 14 13 21 20c14 13 27 26 36 34c19 13 28 44 28 65c0 32 -25 60 -48 60c-8 0 -10 -2 -5 -7
+c3 -4 12 -23 12 -42c0 -23 -19 -38 -38 -38c-17 0 -39 7 -39 42c0 23 3 32 10 41c4 1 5 5 2 10c-5 8 -16 24 -35 38s-45 26 -77 26zM416 458v1c0 16 3 50 30 69c25 0 49 -22 69 -53c19 -32 31 -73 34 -112c-31 0 -65 7 -90 23c-25 15 -43 37 -43 72z" />
+    <glyph glyph-name="ampersandsmall" unicode="&#xfe60;" 
+ />
+    <glyph glyph-name="asterisk" unicode="*" 
+ />
+    <glyph glyph-name="backslash" unicode="\" 
+ />
+    <glyph glyph-name="periodcentered" unicode="&#xb7;" 
+ />
+    <glyph glyph-name="bullet" unicode="&#x2022;" 
+ />
+    <glyph glyph-name="colon" unicode=":" 
+ />
+    <glyph glyph-name="comma" unicode="," 
+ />
+    <glyph glyph-name="ellipsis" unicode="&#x2026;" 
+ />
+    <glyph glyph-name="exclam" unicode="!" 
+ />
+    <glyph glyph-name="exclamdown" unicode="&#xa1;" 
+ />
+    <glyph glyph-name="exclamsmall" unicode="&#xfe57;" 
+ />
+    <glyph glyph-name="numbersign" unicode="#" 
+ />
+    <glyph glyph-name="onedotenleader" unicode="&#x2024;" 
+ />
+    <glyph glyph-name="period" unicode="." 
+ />
+    <glyph glyph-name="question" unicode="?" 
+ />
+    <glyph glyph-name="questiondown" unicode="&#xbf;" 
+ />
+    <glyph glyph-name="questionsmall" unicode="&#xfe56;" 
+ />
+    <glyph glyph-name="quotedbl" unicode="&#x22;" 
+ />
+    <glyph glyph-name="quotesingle" unicode="'" 
+ />
+    <glyph glyph-name="semicolon" unicode=";" 
+ />
+    <glyph glyph-name="slash" unicode="/" 
+ />
+    <glyph glyph-name="twodotenleader" unicode="&#x2025;" 
+ />
+    <glyph glyph-name="underscore" unicode="_" 
+ />
+    <glyph glyph-name="braceleft" unicode="{" 
+ />
+    <glyph glyph-name="braceright" unicode="}" 
+ />
+    <glyph glyph-name="bracketleft" unicode="[" 
+ />
+    <glyph glyph-name="bracketright" unicode="]" 
+ />
+    <glyph glyph-name="parenleft" unicode="(" 
+ />
+    <glyph glyph-name="parenleftinferior" unicode="&#x208d;" 
+ />
+    <glyph glyph-name="parenleftsuperior" unicode="&#x207d;" 
+ />
+    <glyph glyph-name="parenright" unicode=")" 
+ />
+    <glyph glyph-name="parenrightinferior" unicode="&#x208e;" 
+ />
+    <glyph glyph-name="parenrightsuperior" unicode="&#x207e;" 
+ />
+    <glyph glyph-name="emdash" unicode="&#x2014;" 
+ />
+    <glyph glyph-name="endash" unicode="&#x2013;" 
+ />
+    <glyph glyph-name="figuredash" unicode="&#x2012;" 
+ />
+    <glyph glyph-name="hyphen" unicode="-" 
+ />
+    <glyph glyph-name="softhyphen" unicode="&#xad;" 
+ />
+    <glyph glyph-name="guillemetleft" unicode="&#xab;" 
+ />
+    <glyph glyph-name="guillemetright" unicode="&#xbb;" 
+ />
+    <glyph glyph-name="guilsinglleft" unicode="&#x2039;" 
+ />
+    <glyph glyph-name="guilsinglright" unicode="&#x203a;" 
+ />
+    <glyph glyph-name="quotedblbase" unicode="&#x201e;" 
+ />
+    <glyph glyph-name="quotedblleft" unicode="&#x201c;" 
+ />
+    <glyph glyph-name="quotedblright" unicode="&#x201d;" 
+ />
+    <glyph glyph-name="quoteleft" unicode="&#x2018;" 
+ />
+    <glyph glyph-name="quoteright" unicode="&#x2019;" 
+ />
+    <glyph glyph-name="quotesinglbase" unicode="&#x201a;" 
+ />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="nbspace" unicode="&#xa0;" 
+ />
+    <glyph glyph-name="CR" unicode="&#xd;" 
+ />
+    <glyph glyph-name=".null" 
+ />
+    <glyph glyph-name="cent" unicode="&#xa2;" 
+ />
+    <glyph glyph-name="colonsign" unicode="&#x20a1;" 
+ />
+    <glyph glyph-name="currency" unicode="&#xa4;" 
+ />
+    <glyph glyph-name="dollar" unicode="$" 
+ />
+    <glyph glyph-name="euro" unicode="&#x20ac;" 
+ />
+    <glyph glyph-name="florin" unicode="&#x192;" 
+ />
+    <glyph glyph-name="sterling" unicode="&#xa3;" 
+ />
+    <glyph glyph-name="yen" unicode="&#xa5;" 
+ />
+    <glyph glyph-name="approxequal" unicode="&#x2248;" 
+ />
+    <glyph glyph-name="asciitilde" unicode="~" 
+ />
+    <glyph glyph-name="bulletoperator" unicode="&#x2219;" 
+ />
+    <glyph glyph-name="divide" unicode="&#xf7;" 
+ />
+    <glyph glyph-name="divisionslash" unicode="&#x2215;" 
+ />
+    <glyph glyph-name="equal" unicode="=" 
+ />
+    <glyph glyph-name="greater" unicode="&#x3e;" 
+ />
+    <glyph glyph-name="greaterequal" unicode="&#x2265;" 
+ />
+    <glyph glyph-name="infinity" unicode="&#x221e;" 
+ />
+    <glyph glyph-name="integral" unicode="&#x222b;" 
+ />
+    <glyph glyph-name="less" unicode="&#x3c;" 
+ />
+    <glyph glyph-name="lessequal" unicode="&#x2264;" 
+ />
+    <glyph glyph-name="logicalnot" unicode="&#xac;" 
+ />
+    <glyph glyph-name="minus" unicode="&#x2212;" 
+ />
+    <glyph glyph-name="multiply" unicode="&#xd7;" 
+ />
+    <glyph glyph-name="notequal" unicode="&#x2260;" 
+ />
+    <glyph glyph-name="partialdiff" unicode="&#x2202;" 
+ />
+    <glyph glyph-name="percent" unicode="%" 
+ />
+    <glyph glyph-name="perthousand" unicode="&#x2030;" 
+ />
+    <glyph glyph-name="plus" unicode="+" 
+ />
+    <glyph glyph-name="plusminus" unicode="&#xb1;" 
+ />
+    <glyph glyph-name="product" unicode="&#x220f;" 
+ />
+    <glyph glyph-name="radical" unicode="&#x221a;" 
+ />
+    <glyph glyph-name="summation" unicode="&#x2211;" 
+ />
+    <glyph glyph-name="bar" unicode="|" 
+ />
+    <glyph glyph-name="brokenbar" unicode="&#xa6;" 
+ />
+    <glyph glyph-name="at" unicode="@" 
+ />
+    <glyph glyph-name="ampersand" unicode="&#x26;" 
+ />
+    <glyph glyph-name="paragraph" unicode="&#xb6;" 
+ />
+    <glyph glyph-name="copyright" unicode="&#xa9;" 
+ />
+    <glyph glyph-name="registered" unicode="&#xae;" 
+ />
+    <glyph glyph-name="section" unicode="&#xa7;" 
+ />
+    <glyph glyph-name="trademark" unicode="&#x2122;" 
+ />
+    <glyph glyph-name="degree" unicode="&#xb0;" 
+ />
+    <glyph glyph-name="estimated" unicode="&#x212e;" 
+ />
+    <glyph glyph-name="literSign" unicode="&#x2113;" 
+ />
+    <glyph glyph-name="numero" unicode="&#x2116;" 
+ />
+    <glyph glyph-name="asciicircum" unicode="^" 
+ />
+    <glyph glyph-name="dagger" unicode="&#x2020;" 
+ />
+    <glyph glyph-name="daggerdbl" unicode="&#x2021;" 
+ />
+    <glyph glyph-name="lozenge" unicode="&#x25ca;" 
+ />
+    <glyph glyph-name="acute" unicode="&#xb4;" 
+ />
+    <glyph glyph-name="breve" unicode="&#x2d8;" 
+ />
+    <glyph glyph-name="caron" unicode="&#x2c7;" 
+ />
+    <glyph glyph-name="cedilla" unicode="&#xb8;" 
+ />
+    <glyph glyph-name="circumflex" unicode="&#x2c6;" 
+ />
+    <glyph glyph-name="dieresis" unicode="&#xa8;" 
+ />
+    <glyph glyph-name="dotaccent" unicode="&#x2d9;" 
+ />
+    <glyph glyph-name="grave" unicode="`" 
+ />
+    <glyph glyph-name="hungarumlaut" unicode="&#x2dd;" 
+ />
+    <glyph glyph-name="macron" unicode="&#xaf;" 
+ />
+    <glyph glyph-name="ogonek" unicode="&#x2db;" 
+ />
+    <glyph glyph-name="ring" unicode="&#x2da;" 
+ />
+    <glyph glyph-name="tilde" unicode="&#x2dc;" 
+ />
+    <glyph glyph-name="commaaccent" unicode="&#x326;" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="commaaccent.alt" unicode="&#xe008;" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="firsttonechinese" unicode="&#x2c9;" 
+ />
+    <glyph glyph-name="Aacutesmall" unicode="&#xf7e1;" 
+ />
+    <glyph glyph-name="Acircumflexsmall" unicode="&#xf7e2;" 
+ />
+    <glyph glyph-name="Acute" unicode="&#xf6c9;" 
+ />
+    <glyph glyph-name="Acutesmall" unicode="&#xf7b4;" 
+ />
+    <glyph glyph-name="Adieresissmall" unicode="&#xf7e4;" 
+ />
+    <glyph glyph-name="Agravesmall" unicode="&#xf7e0;" 
+ />
+    <glyph glyph-name="Aringsmall" unicode="&#xf7e5;" 
+ />
+    <glyph glyph-name="Atildesmall" unicode="&#xf7e3;" 
+ />
+    <glyph glyph-name="Brevesmall" unicode="&#xf6f4;" 
+ />
+    <glyph glyph-name="Caron" unicode="&#xf6ca;" 
+ />
+    <glyph glyph-name="Caronsmall" unicode="&#xf6f5;" 
+ />
+    <glyph glyph-name="Ccedillasmall" unicode="&#xf7e7;" 
+ />
+    <glyph glyph-name="Cedillasmall" unicode="&#xf7b8;" 
+ />
+    <glyph glyph-name="Circumflexsmall" unicode="&#xf6f6;" 
+ />
+    <glyph glyph-name="Dieresis" unicode="&#xf6cb;" 
+ />
+    <glyph glyph-name="Dieresissmall" unicode="&#xf7a8;" 
+ />
+    <glyph glyph-name="Dotaccentsmall" unicode="&#xf6f7;" 
+ />
+    <glyph glyph-name="Eacutesmall" unicode="&#xf7e9;" 
+ />
+    <glyph glyph-name="Ecircumflexsmall" unicode="&#xf7ea;" 
+ />
+    <glyph glyph-name="Edieresissmall" unicode="&#xf7eb;" 
+ />
+    <glyph glyph-name="Egravesmall" unicode="&#xf7e8;" 
+ />
+    <glyph glyph-name="Ethsmall" unicode="&#xf7f0;" 
+ />
+    <glyph glyph-name="Fsmall" unicode="&#xf766;" 
+ />
+    <glyph glyph-name="Grave" unicode="&#xf6ce;" 
+ />
+    <glyph glyph-name="Gravesmall" unicode="&#xf760;" 
+ />
+    <glyph glyph-name="Hungarumlaut" unicode="&#xf6cf;" 
+ />
+    <glyph glyph-name="Hungarumlautsmall" unicode="&#xf6f8;" 
+ />
+    <glyph glyph-name="Iacutesmall" unicode="&#xf7ed;" 
+ />
+    <glyph glyph-name="Icircumflexsmall" unicode="&#xf7ee;" 
+ />
+    <glyph glyph-name="Idieresissmall" unicode="&#xf7ef;" 
+ />
+    <glyph glyph-name="Igravesmall" unicode="&#xf7ec;" 
+ />
+    <glyph glyph-name="Lslashsmall" unicode="&#xf6f9;" 
+ />
+    <glyph glyph-name="Macron" unicode="&#xf6d0;" 
+ />
+    <glyph glyph-name="Macronsmall" unicode="&#xf7af;" 
+ />
+    <glyph glyph-name="Ntildesmall" unicode="&#xf7f1;" 
+ />
+    <glyph glyph-name="Oacutesmall" unicode="&#xf7f3;" 
+ />
+    <glyph glyph-name="Ocircumflexsmall" unicode="&#xf7f4;" 
+ />
+    <glyph glyph-name="Odieresissmall" unicode="&#xf7f6;" 
+ />
+    <glyph glyph-name="Ogoneksmall" unicode="&#xf6fb;" 
+ />
+    <glyph glyph-name="Ogravesmall" unicode="&#xf7f2;" 
+ />
+    <glyph glyph-name="Oslashsmall" unicode="&#xf7f8;" 
+ />
+    <glyph glyph-name="Otildesmall" unicode="&#xf7f5;" 
+ />
+    <glyph glyph-name="Qsmall" unicode="&#xf771;" 
+ />
+    <glyph glyph-name="Ringsmall" unicode="&#xf6fc;" 
+ />
+    <glyph glyph-name="Scaronsmall" unicode="&#xf6fd;" 
+ />
+    <glyph glyph-name="Ssmall" unicode="&#xf773;" 
+ />
+    <glyph glyph-name="Thornsmall" unicode="&#xf7fe;" 
+ />
+    <glyph glyph-name="Tildesmall" unicode="&#xf6fe;" 
+ />
+    <glyph glyph-name="Uacutesmall" unicode="&#xf7fa;" 
+ />
+    <glyph glyph-name="Ucircumflexsmall" unicode="&#xf7fb;" 
+ />
+    <glyph glyph-name="Udieresissmall" unicode="&#xf7fc;" 
+ />
+    <glyph glyph-name="Ugravesmall" unicode="&#xf7f9;" 
+ />
+    <glyph glyph-name="Xsmall" unicode="&#xf778;" 
+ />
+    <glyph glyph-name="Yacutesmall" unicode="&#xf7fd;" 
+ />
+    <glyph glyph-name="Ydieresissmall" unicode="&#xf7ff;" 
+ />
+    <glyph glyph-name="Zcaronsmall" unicode="&#xf6ff;" 
+ />
+    <glyph glyph-name="asuperior" unicode="&#xf6e9;" 
+ />
+    <glyph glyph-name="bsuperior" unicode="&#xf6ea;" 
+ />
+    <glyph glyph-name="centinferior" unicode="&#xf6df;" 
+ />
+    <glyph glyph-name="centoldstyle" unicode="&#xf7a2;" 
+ />
+    <glyph glyph-name="centsuperior" unicode="&#xf6e0;" 
+ />
+    <glyph glyph-name="commainferior" unicode="&#xf6e1;" 
+ />
+    <glyph glyph-name="commasuperior" unicode="&#xf6e2;" 
+ />
+    <glyph glyph-name="dollarinferior" unicode="&#xf6e3;" 
+ />
+    <glyph glyph-name="dollaroldstyle" unicode="&#xf724;" 
+ />
+    <glyph glyph-name="dollarsuperior" unicode="&#xf6e4;" 
+ />
+    <glyph glyph-name="dsuperior" unicode="&#xf6eb;" 
+ />
+    <glyph glyph-name="eightoldstyle" unicode="&#xf738;" 
+ />
+    <glyph glyph-name="esuperior" unicode="&#xf6ec;" 
+ />
+    <glyph glyph-name="exclamdownsmall" unicode="&#xf7a1;" 
+ />
+    <glyph glyph-name="fiveoldstyle" unicode="&#xf735;" 
+ />
+    <glyph glyph-name="fouroldstyle" unicode="&#xf734;" 
+ />
+    <glyph glyph-name="hypheninferior" unicode="&#xf6e5;" 
+ />
+    <glyph glyph-name="hyphensuperior" unicode="&#xf6e6;" 
+ />
+    <glyph glyph-name="isuperior" unicode="&#xf6ed;" 
+ />
+    <glyph glyph-name="msuperior" unicode="&#xf6ef;" 
+ />
+    <glyph glyph-name="nineoldstyle" unicode="&#xf739;" 
+ />
+    <glyph glyph-name="oneoldstyle" unicode="&#xf731;" 
+ />
+    <glyph glyph-name="osuperior" unicode="&#xf6f0;" 
+ />
+    <glyph glyph-name="periodinferior" unicode="&#xf6e7;" 
+ />
+    <glyph glyph-name="periodsuperior" unicode="&#xf6e8;" 
+ />
+    <glyph glyph-name="questiondownsmall" unicode="&#xf7bf;" 
+ />
+    <glyph glyph-name="rsuperior" unicode="&#xf6f1;" 
+ />
+    <glyph glyph-name="rupiah" unicode="&#xf6dd;" 
+ />
+    <glyph glyph-name="sevenoldstyle" unicode="&#xf737;" 
+ />
+    <glyph glyph-name="sixoldstyle" unicode="&#xf736;" 
+ />
+    <glyph glyph-name="threeoldstyle" unicode="&#xf733;" 
+ />
+    <glyph glyph-name="threequartersemdash" unicode="&#xf6de;" 
+ />
+    <glyph glyph-name="tsuperior" unicode="&#xf6f3;" 
+ />
+    <glyph glyph-name="twooldstyle" unicode="&#xf732;" 
+ />
+    <glyph glyph-name="uniEFED" unicode="&#xefed;" 
+ />
+    <glyph glyph-name="uniEFEE" unicode="&#xefee;" 
+ />
+    <glyph glyph-name="uniEFF1" unicode="&#xeff1;" 
+ />
+    <glyph glyph-name="uniEFF2" unicode="&#xeff2;" 
+ />
+    <glyph glyph-name="uniEFF3" unicode="&#xeff3;" 
+ />
+    <glyph glyph-name="uniEFF5" unicode="&#xeff5;" 
+ />
+    <glyph glyph-name="uniEFF7" unicode="&#xeff7;" 
+ />
+    <glyph glyph-name="uniF628" unicode="&#xf628;" 
+ />
+    <glyph glyph-name="uniF629" unicode="&#xf629;" 
+ />
+    <glyph glyph-name="uniF62A" unicode="&#xf62a;" 
+ />
+    <glyph glyph-name="uniF62B" unicode="&#xf62b;" 
+ />
+    <glyph glyph-name="uniF62C" unicode="&#xf62c;" 
+ />
+    <glyph glyph-name="uniF62D" unicode="&#xf62d;" 
+ />
+    <glyph glyph-name="uniF62E" unicode="&#xf62e;" 
+ />
+    <glyph glyph-name="uniF62F" unicode="&#xf62f;" 
+ />
+    <glyph glyph-name="uniF630" unicode="&#xf630;" 
+ />
+    <glyph glyph-name="uniF631" unicode="&#xf631;" 
+ />
+    <glyph glyph-name="uniF632" unicode="&#xf632;" 
+ />
+    <glyph glyph-name="uniF633" unicode="&#xf633;" 
+ />
+    <glyph glyph-name="uniF637" unicode="&#xf637;" 
+ />
+    <glyph glyph-name="uniF638" unicode="&#xf638;" 
+ />
+    <glyph glyph-name="uniF639" unicode="&#xf639;" 
+ />
+    <glyph glyph-name="uniF63A" unicode="&#xf63a;" 
+ />
+    <glyph glyph-name="uniF63B" unicode="&#xf63b;" 
+ />
+    <glyph glyph-name="uniF63C" unicode="&#xf63c;" 
+ />
+    <glyph glyph-name="uniF63D" unicode="&#xf63d;" 
+ />
+    <glyph glyph-name="uniF63E" unicode="&#xf63e;" 
+ />
+    <glyph glyph-name="uniF63F" unicode="&#xf63f;" 
+ />
+    <glyph glyph-name="uniF640" unicode="&#xf640;" 
+ />
+    <glyph glyph-name="uniF641" unicode="&#xf641;" 
+ />
+    <glyph glyph-name="uniF642" unicode="&#xf642;" 
+ />
+    <glyph glyph-name="uniF643" unicode="&#xf643;" 
+ />
+    <glyph glyph-name="uniF644" unicode="&#xf644;" 
+ />
+    <glyph glyph-name="uniF645" unicode="&#xf645;" 
+ />
+    <glyph glyph-name="uniF646" unicode="&#xf646;" 
+ />
+    <glyph glyph-name="uniF647" unicode="&#xf647;" 
+ />
+    <glyph glyph-name="uniF648" unicode="&#xf648;" 
+ />
+    <glyph glyph-name="uniF649" unicode="&#xf649;" 
+ />
+    <glyph glyph-name="uniF64A" unicode="&#xf64a;" 
+ />
+    <glyph glyph-name="uniF64B" unicode="&#xf64b;" 
+ />
+    <glyph glyph-name="uniF64C" unicode="&#xf64c;" 
+ />
+    <glyph glyph-name="uniF64D" unicode="&#xf64d;" 
+ />
+    <glyph glyph-name="uniF64E" unicode="&#xf64e;" 
+ />
+    <glyph glyph-name="uniF64F" unicode="&#xf64f;" 
+ />
+    <glyph glyph-name="uniF650" unicode="&#xf650;" 
+ />
+    <glyph glyph-name="uniF651" unicode="&#xf651;" 
+ />
+    <glyph glyph-name="uniF652" unicode="&#xf652;" 
+ />
+    <glyph glyph-name="uniF653" unicode="&#xf653;" 
+ />
+    <glyph glyph-name="uniF654" unicode="&#xf654;" 
+ />
+    <glyph glyph-name="uniF655" unicode="&#xf655;" 
+ />
+    <glyph glyph-name="uniF656" unicode="&#xf656;" 
+ />
+    <glyph glyph-name="uniF657" unicode="&#xf657;" 
+ />
+    <glyph glyph-name="uniF658" unicode="&#xf658;" 
+ />
+    <glyph glyph-name="uniF659" unicode="&#xf659;" 
+ />
+    <glyph glyph-name="uniF65A" unicode="&#xf65a;" 
+ />
+    <glyph glyph-name="uniF65B" unicode="&#xf65b;" 
+ />
+    <glyph glyph-name="uniF65C" unicode="&#xf65c;" 
+ />
+    <glyph glyph-name="uniF65D" unicode="&#xf65d;" 
+ />
+    <glyph glyph-name="uniF65E" unicode="&#xf65e;" 
+ />
+    <glyph glyph-name="uniF65F" unicode="&#xf65f;" 
+ />
+    <glyph glyph-name="uniF660" unicode="&#xf660;" 
+ />
+    <glyph glyph-name="uniF661" unicode="&#xf661;" 
+ />
+    <glyph glyph-name="uniF662" unicode="&#xf662;" 
+ />
+    <glyph glyph-name="uniF663" unicode="&#xf663;" 
+ />
+    <glyph glyph-name="uniF664" unicode="&#xf664;" 
+ />
+    <glyph glyph-name="uniF665" unicode="&#xf665;" 
+ />
+    <glyph glyph-name="uniF666" unicode="&#xf666;" 
+ />
+    <glyph glyph-name="uniF667" unicode="&#xf667;" 
+ />
+    <glyph glyph-name="uniF668" unicode="&#xf668;" 
+ />
+    <glyph glyph-name="uniF669" unicode="&#xf669;" 
+ />
+    <glyph glyph-name="uniF66A" unicode="&#xf66a;" 
+ />
+    <glyph glyph-name="uniF66B" unicode="&#xf66b;" 
+ />
+    <glyph glyph-name="uniF66C" unicode="&#xf66c;" 
+ />
+    <glyph glyph-name="uniF66D" unicode="&#xf66d;" 
+ />
+    <glyph glyph-name="uniF66E" unicode="&#xf66e;" 
+ />
+    <glyph glyph-name="uniF66F" unicode="&#xf66f;" 
+ />
+    <glyph glyph-name="uniF671" unicode="&#xf671;" 
+ />
+    <glyph glyph-name="uniF672" unicode="&#xf672;" 
+ />
+    <glyph glyph-name="uniF675" unicode="&#xf675;" 
+ />
+    <glyph glyph-name="uniF676" unicode="&#xf676;" 
+ />
+    <glyph glyph-name="uniF678" unicode="&#xf678;" 
+ />
+    <glyph glyph-name="uniF679" unicode="&#xf679;" 
+ />
+    <glyph glyph-name="uniF67A" unicode="&#xf67a;" 
+ />
+    <glyph glyph-name="uniF67C" unicode="&#xf67c;" 
+ />
+    <glyph glyph-name="uniF67D" unicode="&#xf67d;" 
+ />
+    <glyph glyph-name="uniF67F" unicode="&#xf67f;" 
+ />
+    <glyph glyph-name="uniF685" unicode="&#xf685;" 
+ />
+    <glyph glyph-name="uniF686" unicode="&#xf686;" 
+ />
+    <glyph glyph-name="uniF689" unicode="&#xf689;" 
+ />
+    <glyph glyph-name="uniF68A" unicode="&#xf68a;" 
+ />
+    <glyph glyph-name="uniF68B" unicode="&#xf68b;" 
+ />
+    <glyph glyph-name="uniF68C" unicode="&#xf68c;" 
+ />
+    <glyph glyph-name="uniF68E" unicode="&#xf68e;" 
+ />
+    <glyph glyph-name="uniF68F" unicode="&#xf68f;" 
+ />
+    <glyph glyph-name="uniF690" unicode="&#xf690;" 
+ />
+    <glyph glyph-name="uniF692" unicode="&#xf692;" 
+ />
+    <glyph glyph-name="uniF693" unicode="&#xf693;" 
+ />
+    <glyph glyph-name="uniF695" unicode="&#xf695;" 
+ />
+    <glyph glyph-name="uniF696" unicode="&#xf696;" 
+ />
+    <glyph glyph-name="uniF697" unicode="&#xf697;" 
+ />
+    <glyph glyph-name="uniF698" unicode="&#xf698;" 
+ />
+    <glyph glyph-name="uniF699" unicode="&#xf699;" 
+ />
+    <glyph glyph-name="uniF69B" unicode="&#xf69b;" 
+ />
+    <glyph glyph-name="uniF69D" unicode="&#xf69d;" 
+ />
+    <glyph glyph-name="uniF69E" unicode="&#xf69e;" 
+ />
+    <glyph glyph-name="uniF6A0" unicode="&#xf6a0;" 
+ />
+    <glyph glyph-name="uniF6A1" unicode="&#xf6a1;" 
+ />
+    <glyph glyph-name="uniF6A2" unicode="&#xf6a2;" 
+ />
+    <glyph glyph-name="uniF6A3" unicode="&#xf6a3;" 
+ />
+    <glyph glyph-name="uniF6AB" unicode="&#xf6ab;" 
+ />
+    <glyph glyph-name="uniF6AC" unicode="&#xf6ac;" 
+ />
+    <glyph glyph-name="uniF6AD" unicode="&#xf6ad;" 
+ />
+    <glyph glyph-name="uniF6AE" unicode="&#xf6ae;" 
+ />
+    <glyph glyph-name="uniF6AF" unicode="&#xf6af;" 
+ />
+    <glyph glyph-name="uniF6B0" unicode="&#xf6b0;" 
+ />
+    <glyph glyph-name="uniF6B1" unicode="&#xf6b1;" 
+ />
+    <glyph glyph-name="uniF6B2" unicode="&#xf6b2;" 
+ />
+    <glyph glyph-name="uniF6B3" unicode="&#xf6b3;" 
+ />
+    <glyph glyph-name="uniF6B4" unicode="&#xf6b4;" 
+ />
+    <glyph glyph-name="uniF6B5" unicode="&#xf6b5;" 
+ />
+    <glyph glyph-name="uniF6B6" unicode="&#xf6b6;" 
+ />
+    <glyph glyph-name="uniF6B7" unicode="&#xf6b7;" 
+ />
+    <glyph glyph-name="uniF6B8" unicode="&#xf6b8;" 
+ />
+    <glyph glyph-name="uniF6B9" unicode="&#xf6b9;" 
+ />
+    <glyph glyph-name="uniF6BA" unicode="&#xf6ba;" 
+ />
+    <glyph glyph-name="uniF6BB" unicode="&#xf6bb;" 
+ />
+    <glyph glyph-name="uniF6BC" unicode="&#xf6bc;" 
+ />
+    <glyph glyph-name="uniF6BD" unicode="&#xf6bd;" 
+ />
+    <glyph glyph-name="uniF6DC" unicode="&#xf6dc;" 
+ />
+    <glyph glyph-name="zerooldstyle" unicode="&#xf730;" 
+ />
+    <glyph glyph-name="Qsmall.alt" unicode="&#xe003;" 
+ />
+    <glyph glyph-name="orn.001" unicode="&#xe00f;" 
+ />
+    <glyph glyph-name="orn.002" unicode="&#xe010;" 
+ />
+    <glyph glyph-name="orn.003" unicode="&#xe011;" 
+ />
+    <glyph glyph-name="orn.004" unicode="&#xe012;" 
+ />
+    <glyph glyph-name="orn.005" unicode="&#xe013;" 
+ />
+    <hkern u1="&#x7b;" u2="&#xf697;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf696;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf695;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf68c;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf68b;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf68a;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf689;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf67c;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf67a;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf679;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf678;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf676;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf675;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7fe;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf6f9;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf766;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7f0;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7e8;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7eb;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7ea;" k="20" />
+    <hkern u1="&#x7b;" u2="&#xf7e9;" k="20" />
+    <hkern u1="[" u2="&#xf697;" k="20" />
+    <hkern u1="[" u2="&#xf696;" k="20" />
+    <hkern u1="[" u2="&#xf695;" k="20" />
+    <hkern u1="[" u2="&#xf68c;" k="20" />
+    <hkern u1="[" u2="&#xf68b;" k="20" />
+    <hkern u1="[" u2="&#xf68a;" k="20" />
+    <hkern u1="[" u2="&#xf689;" k="20" />
+    <hkern u1="[" u2="&#xf67c;" k="20" />
+    <hkern u1="[" u2="&#xf67a;" k="20" />
+    <hkern u1="[" u2="&#xf679;" k="20" />
+    <hkern u1="[" u2="&#xf678;" k="20" />
+    <hkern u1="[" u2="&#xf676;" k="20" />
+    <hkern u1="[" u2="&#xf675;" k="20" />
+    <hkern u1="[" u2="&#xf7fe;" k="20" />
+    <hkern u1="[" u2="&#xf6f9;" k="20" />
+    <hkern u1="[" u2="&#xf766;" k="20" />
+    <hkern u1="[" u2="&#xf7f0;" k="20" />
+    <hkern u1="[" u2="&#xf7e8;" k="20" />
+    <hkern u1="[" u2="&#xf7eb;" k="20" />
+    <hkern u1="[" u2="&#xf7ea;" k="20" />
+    <hkern u1="[" u2="&#xf7e9;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf697;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf696;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf695;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf68c;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf68b;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf68a;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf689;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf67c;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf67a;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf679;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf678;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf676;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf675;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7fe;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf6f9;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf766;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7f0;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7e8;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7eb;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7ea;" k="20" />
+    <hkern u1="&#xf6b0;" u2="&#xf7e9;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf697;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf696;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf695;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf68c;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf68b;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf68a;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf689;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf67c;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf67a;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf679;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf678;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf676;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf675;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7fe;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf6f9;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf766;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7f0;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7e8;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7eb;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7ea;" k="20" />
+    <hkern u1="&#xf6b2;" u2="&#xf7e9;" k="20" />
+    <hkern g1="Ntildesmall,uniF68E,uniF68F,uniF690"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="5" />
+    <hkern g1="Ntildesmall,uniF68E,uniF68F,uniF690"
+	g2="comma,ellipsis,period"
+	k="20" />
+    <hkern g1="Ntildesmall,uniF68E,uniF68F,uniF690"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="21" />
+    <hkern g1="Ntildesmall,uniF68E,uniF68F,uniF690"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="-3" />
+    <hkern g1="space,nbspace"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="10" />
+    <hkern g1="space,nbspace"
+	g2="Yacutesmall,Ydieresissmall"
+	k="13" />
+    <hkern g1="space,nbspace"
+	g2="quotedblbase,quotesinglbase"
+	k="102" />
+    <hkern g1="space,nbspace"
+	g2="quotedblleft,quoteleft"
+	k="100" />
+    <hkern g1="space,nbspace"
+	g2="A"
+	k="20" />
+    <hkern g1="space,nbspace"
+	g2="quotedbl,quotesingle"
+	k="13" />
+    <hkern g1="space,nbspace"
+	g2="quotedblright,quoteright"
+	k="50" />
+    <hkern g1="twooldstyle"
+	g2="threeoldstyle"
+	k="13" />
+    <hkern g1="twooldstyle"
+	g2="sevenoldstyle"
+	k="21" />
+    <hkern g1="twooldstyle"
+	g2="eightoldstyle"
+	k="-17" />
+    <hkern g1="twooldstyle"
+	g2="fiveoldstyle"
+	k="-4" />
+    <hkern g1="twooldstyle"
+	g2="nineoldstyle"
+	k="6" />
+    <hkern g1="twooldstyle"
+	g2="oneoldstyle"
+	k="-9" />
+    <hkern g1="twooldstyle"
+	g2="fouroldstyle"
+	k="-14" />
+    <hkern g1="uniF63A"
+	g2="uniF640"
+	k="-10" />
+    <hkern g1="uniF63A"
+	g2="uniF639"
+	k="-5" />
+    <hkern g1="uniF63A"
+	g2="uniF63E"
+	k="-3" />
+    <hkern g1="uniF6DC"
+	g2="uniF639"
+	k="27" />
+    <hkern g1="uniF6DC"
+	g2="uniF63E"
+	k="3" />
+    <hkern g1="uniF6DC"
+	g2="uniF641"
+	k="15" />
+    <hkern g1="uniF6DC"
+	g2="uniF63C"
+	k="10" />
+    <hkern g1="uniF6DC"
+	g2="uniF63A"
+	k="-8" />
+    <hkern g1="uniF6DC"
+	g2="uniF63D"
+	k="-10" />
+    <hkern g1="uniF6DC"
+	g2="uniF6DC"
+	k="7" />
+    <hkern g1="sixoldstyle"
+	g2="threeoldstyle"
+	k="23" />
+    <hkern g1="sixoldstyle"
+	g2="sevenoldstyle"
+	k="18" />
+    <hkern g1="sixoldstyle"
+	g2="nineoldstyle"
+	k="7" />
+    <hkern g1="sixoldstyle"
+	g2="oneoldstyle"
+	k="6" />
+    <hkern g1="sixoldstyle"
+	g2="fouroldstyle"
+	k="14" />
+    <hkern g1="sixoldstyle"
+	g2="zerooldstyle"
+	k="3" />
+    <hkern g1="sixoldstyle"
+	g2="twooldstyle"
+	k="17" />
+    <hkern g1="Zcaronsmall,uniF6AB,uniF6AC"
+	g2="comma,ellipsis,period"
+	k="-10" />
+    <hkern g1="Zcaronsmall,uniF6AB,uniF6AC"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="6" />
+    <hkern g1="Zcaronsmall,uniF6AB,uniF6AC"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="6" />
+    <hkern g1="Zcaronsmall,uniF6AB,uniF6AC"
+	g2="colon,semicolon"
+	k="-10" />
+    <hkern g1="uniF63E"
+	g2="comma,ellipsis,period"
+	k="20" />
+    <hkern g1="uniF63E"
+	g2="uniF640"
+	k="6" />
+    <hkern g1="uniF63E"
+	g2="uniF63E"
+	k="6" />
+    <hkern g1="uniF63E"
+	g2="uniF641"
+	k="27" />
+    <hkern g1="uniF63E"
+	g2="uniF63A"
+	k="15" />
+    <hkern g1="uniF63E"
+	g2="uniF63D"
+	k="3" />
+    <hkern g1="uniF63E"
+	g2="uniF6DC"
+	k="28" />
+    <hkern g1="uniF63E"
+	g2="uniF63F"
+	k="3" />
+    <hkern g1="uniF63E"
+	g2="uniF63B"
+	k="18" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="20" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="comma,ellipsis,period"
+	k="102" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="63" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="17" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="questionsmall"
+	k="3" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="Xsmall"
+	k="15" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="space,nbspace"
+	k="5" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	k="8" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="13" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="uniF69D,uniF69E"
+	k="-11" />
+    <hkern g1="Yacutesmall,Ydieresissmall"
+	g2="exclamsmall"
+	k="-3" />
+    <hkern g1="uniF67D,uniF67F"
+	g2="quotedblleft,quoteleft"
+	k="5" />
+    <hkern g1="uniF67D,uniF67F"
+	g2="quotedbl,quotesingle"
+	k="5" />
+    <hkern g1="uniF67D,uniF67F"
+	g2="colon,semicolon"
+	k="-3" />
+    <hkern g1="uniF67D,uniF67F"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="-10" />
+    <hkern g1="uniF67D,uniF67F"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="eightoldstyle"
+	g2="threeoldstyle"
+	k="34" />
+    <hkern g1="eightoldstyle"
+	g2="sevenoldstyle"
+	k="19" />
+    <hkern g1="eightoldstyle"
+	g2="fiveoldstyle"
+	k="9" />
+    <hkern g1="eightoldstyle"
+	g2="fouroldstyle"
+	k="5" />
+    <hkern g1="eightoldstyle"
+	g2="twooldstyle"
+	k="23" />
+    <hkern g1="eightoldstyle"
+	g2="sixoldstyle"
+	k="3" />
+    <hkern g1="questiondownsmall"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="5" />
+    <hkern g1="questiondownsmall"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="-3" />
+    <hkern g1="questiondownsmall"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="-3" />
+    <hkern g1="Xsmall"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="20" />
+    <hkern g1="Xsmall"
+	g2="Yacutesmall,Ydieresissmall"
+	k="18" />
+    <hkern g1="Xsmall"
+	g2="quotedbl,quotesingle"
+	k="3" />
+    <hkern g1="Xsmall"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="27" />
+    <hkern g1="Xsmall"
+	g2="Xsmall"
+	k="12" />
+    <hkern g1="Xsmall"
+	g2="uniF69D,uniF69E"
+	k="9" />
+    <hkern g1="Xsmall"
+	g2="exclamsmall"
+	k="10" />
+    <hkern g1="Xsmall"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="Fsmall"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="1" />
+    <hkern g1="Fsmall"
+	g2="comma,ellipsis,period"
+	k="70" />
+    <hkern g1="Fsmall"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="37" />
+    <hkern g1="Fsmall"
+	g2="quotedbl,quotesingle"
+	k="5" />
+    <hkern g1="Fsmall"
+	g2="colon,semicolon"
+	k="-10" />
+    <hkern g1="Thornsmall"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="5" />
+    <hkern g1="Thornsmall"
+	g2="comma,ellipsis,period"
+	k="17" />
+    <hkern g1="Thornsmall"
+	g2="quotedblleft,quoteleft"
+	k="45" />
+    <hkern g1="Thornsmall"
+	g2="quotedbl,quotesingle"
+	k="43" />
+    <hkern g1="Thornsmall"
+	g2="quotedblright,quoteright"
+	k="25" />
+    <hkern g1="Thornsmall"
+	g2="questionsmall"
+	k="-17" />
+    <hkern g1="Thornsmall"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="-23" />
+    <hkern g1="Thornsmall"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-13" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="comma,ellipsis,period"
+	k="-10" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="Yacutesmall,Ydieresissmall"
+	k="18" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="colon,semicolon"
+	k="-13" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	k="-10" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="uniF69D,uniF69E"
+	k="10" />
+    <hkern g1="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,uniF678,uniF679,uniF67A,uniF67C"
+	g2="exclamsmall"
+	k="-10" />
+    <hkern g1="uniF63D"
+	g2="comma,ellipsis,period"
+	k="23" />
+    <hkern g1="uniF63D"
+	g2="uniF641"
+	k="10" />
+    <hkern g1="uniF63D"
+	g2="uniF63A"
+	k="18" />
+    <hkern g1="uniF63D"
+	g2="uniF6DC"
+	k="16" />
+    <hkern g1="uniF63D"
+	g2="uniF63B"
+	k="17" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="comma,ellipsis,period"
+	k="25" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="11" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="9" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Yacutesmall,Ydieresissmall"
+	k="19" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="quotedblleft,quoteleft"
+	k="5" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="quotedbl,quotesingle"
+	k="8" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="quotedblright,quoteright"
+	k="5" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="-10" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="colon,semicolon"
+	k="-3" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="questionsmall"
+	k="-10" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Xsmall"
+	k="14" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="uniF69D,uniF69E"
+	k="16" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="-20" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="4" />
+    <hkern g1="Ethsmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF675,uniF676,uniF692,uniF693,Qsmall.alt"
+	g2="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,Ethsmall,Fsmall,Lslashsmall,Thornsmall,uniF675,uniF676,uniF678,uniF679,uniF67A,uniF67C,uniF689,uniF68A,uniF68B,uniF68C,uniF695,uniF696,uniF697"
+	k="7" />
+    <hkern g1="quotedblright,quoteright"
+	g2="comma,ellipsis,period"
+	k="146" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="111" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="40" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Yacutesmall,Ydieresissmall"
+	k="5" />
+    <hkern g1="quotedblright,quoteright"
+	g2="A"
+	k="127" />
+    <hkern g1="quotedblright,quoteright"
+	g2="quotedblright,quoteright"
+	k="5" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="11" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Xsmall"
+	k="25" />
+    <hkern g1="quotedblright,quoteright"
+	g2="space,nbspace"
+	k="45" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="16" />
+    <hkern g1="quotedblright,quoteright"
+	g2="uniF69D,uniF69E"
+	k="5" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="11" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,Ethsmall,Fsmall,Lslashsmall,Thornsmall,uniF675,uniF676,uniF678,uniF679,uniF67A,uniF67C,uniF689,uniF68A,uniF68B,uniF68C,uniF695,uniF696,uniF697"
+	k="11" />
+    <hkern g1="quotedblright,quoteright"
+	g2="Zcaronsmall,uniF6AB,uniF6AC"
+	k="10" />
+    <hkern g1="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	g2="A"
+	k="3" />
+    <hkern g1="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	g2="uniF69D,uniF69E"
+	k="20" />
+    <hkern g1="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="-10" />
+    <hkern g1="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	g2="comma,ellipsis,period"
+	k="20" />
+    <hkern g1="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="44" />
+    <hkern g1="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	g2="uniF69D,uniF69E"
+	k="-10" />
+    <hkern g1="Ccedillasmall,uniF671,uniF672"
+	g2="quotedblright,quoteright"
+	k="-3" />
+    <hkern g1="Ccedillasmall,uniF671,uniF672"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="2" />
+    <hkern g1="Ccedillasmall,uniF671,uniF672"
+	g2="colon,semicolon"
+	k="-13" />
+    <hkern g1="Ccedillasmall,uniF671,uniF672"
+	g2="questionsmall"
+	k="-4" />
+    <hkern g1="Ccedillasmall,uniF671,uniF672"
+	g2="exclamsmall"
+	k="-5" />
+    <hkern g1="fouroldstyle"
+	g2="threeoldstyle"
+	k="16" />
+    <hkern g1="fouroldstyle"
+	g2="sevenoldstyle"
+	k="44" />
+    <hkern g1="fouroldstyle"
+	g2="nineoldstyle"
+	k="18" />
+    <hkern g1="fouroldstyle"
+	g2="oneoldstyle"
+	k="4" />
+    <hkern g1="fouroldstyle"
+	g2="fouroldstyle"
+	k="-2" />
+    <hkern g1="fouroldstyle"
+	g2="zerooldstyle"
+	k="13" />
+    <hkern g1="fouroldstyle"
+	g2="twooldstyle"
+	k="8" />
+    <hkern g1="fouroldstyle"
+	g2="sixoldstyle"
+	k="13" />
+    <hkern g1="colon,semicolon"
+	g2="quotedblright,quoteright"
+	k="17" />
+    <hkern g1="colon,semicolon"
+	g2="space,nbspace"
+	k="10" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="-20" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="comma,ellipsis,period"
+	k="95" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="52" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="Yacutesmall,Ydieresissmall"
+	k="-5" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="quotedblright,quoteright"
+	k="-3" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="17" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="colon,semicolon"
+	k="-15" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="Xsmall"
+	k="9" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="12" />
+    <hkern g1="uniF69D,uniF69E"
+	g2="uniF69D,uniF69E"
+	k="-1" />
+    <hkern g1="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	g2="A"
+	k="3" />
+    <hkern g1="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	g2="Xsmall"
+	k="3" />
+    <hkern g1="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	g2="uniF69D,uniF69E"
+	k="40" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="-5" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="quotedblleft,quoteleft"
+	k="5" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="quotedbl,quotesingle"
+	k="-15" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="uniF69D,uniF69E"
+	k="11" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="-10" />
+    <hkern g1="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="3" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="50" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="Yacutesmall,Ydieresissmall"
+	k="56" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="quotedblleft,quoteleft"
+	k="68" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="quotedbl,quotesingle"
+	k="100" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="quotedblright,quoteright"
+	k="65" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="20" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="Xsmall"
+	k="25" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="space,nbspace"
+	k="3" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="8" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="uniF69D,uniF69E"
+	k="60" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="5" />
+    <hkern g1="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="3" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="comma,ellipsis,period"
+	k="148" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="115" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="15" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Yacutesmall,Ydieresissmall"
+	k="-20" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="quotedblleft,quoteleft"
+	k="5" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="A"
+	k="123" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Xsmall"
+	k="15" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="3" />
+    <hkern g1="quotedblleft,quoteleft"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="-10" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="comma,ellipsis,period"
+	k="-10" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="3" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="30" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="Yacutesmall,Ydieresissmall"
+	k="50" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="quotedblleft,quoteleft"
+	k="22" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="quotedbl,quotesingle"
+	k="16" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="quotedblright,quoteright"
+	k="8" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="16" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="Xsmall"
+	k="14" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="uniF69D,uniF69E"
+	k="41" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="exclamsmall"
+	k="3" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="5" />
+    <hkern g1="uniF695,uniF696,uniF697"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="uniF63C"
+	g2="comma,ellipsis,period"
+	k="13" />
+    <hkern g1="uniF63C"
+	g2="uniF63E"
+	k="-5" />
+    <hkern g1="uniF63C"
+	g2="uniF641"
+	k="7" />
+    <hkern g1="uniF63C"
+	g2="uniF63C"
+	k="-3" />
+    <hkern g1="uniF63C"
+	g2="uniF63A"
+	k="3" />
+    <hkern g1="uniF63C"
+	g2="uniF6DC"
+	k="15" />
+    <hkern g1="fiveoldstyle"
+	g2="threeoldstyle"
+	k="4" />
+    <hkern g1="fiveoldstyle"
+	g2="sevenoldstyle"
+	k="-2" />
+    <hkern g1="fiveoldstyle"
+	g2="oneoldstyle"
+	k="-22" />
+    <hkern g1="fiveoldstyle"
+	g2="zerooldstyle"
+	k="16" />
+    <hkern g1="fiveoldstyle"
+	g2="twooldstyle"
+	k="4" />
+    <hkern g1="fiveoldstyle"
+	g2="sixoldstyle"
+	k="3" />
+    <hkern g1="sevenoldstyle"
+	g2="threeoldstyle"
+	k="3" />
+    <hkern g1="sevenoldstyle"
+	g2="sevenoldstyle"
+	k="2" />
+    <hkern g1="sevenoldstyle"
+	g2="comma,ellipsis,period"
+	k="89" />
+    <hkern g1="sevenoldstyle"
+	g2="eightoldstyle"
+	k="5" />
+    <hkern g1="sevenoldstyle"
+	g2="fiveoldstyle"
+	k="16" />
+    <hkern g1="sevenoldstyle"
+	g2="nineoldstyle"
+	k="5" />
+    <hkern g1="sevenoldstyle"
+	g2="oneoldstyle"
+	k="-19" />
+    <hkern g1="sevenoldstyle"
+	g2="fouroldstyle"
+	k="58" />
+    <hkern g1="sevenoldstyle"
+	g2="zerooldstyle"
+	k="11" />
+    <hkern g1="sevenoldstyle"
+	g2="twooldstyle"
+	k="8" />
+    <hkern g1="sevenoldstyle"
+	g2="sixoldstyle"
+	k="4" />
+    <hkern g1="oneoldstyle"
+	g2="threeoldstyle"
+	k="3" />
+    <hkern g1="oneoldstyle"
+	g2="fouroldstyle"
+	k="-8" />
+    <hkern g1="oneoldstyle"
+	g2="twooldstyle"
+	k="-5" />
+    <hkern g1="oneoldstyle"
+	g2="sixoldstyle"
+	k="3" />
+    <hkern g1="comma,ellipsis,period"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="-30" />
+    <hkern g1="comma,ellipsis,period"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="10" />
+    <hkern g1="comma,ellipsis,period"
+	g2="Yacutesmall,Ydieresissmall"
+	k="23" />
+    <hkern g1="comma,ellipsis,period"
+	g2="quotedblleft,quoteleft"
+	k="65" />
+    <hkern g1="comma,ellipsis,period"
+	g2="A"
+	k="-35" />
+    <hkern g1="comma,ellipsis,period"
+	g2="quotedbl,quotesingle"
+	k="91" />
+    <hkern g1="comma,ellipsis,period"
+	g2="quotedblright,quoteright"
+	k="91" />
+    <hkern g1="comma,ellipsis,period"
+	g2="Xsmall"
+	k="-10" />
+    <hkern g1="comma,ellipsis,period"
+	g2="space,nbspace"
+	k="30" />
+    <hkern g1="comma,ellipsis,period"
+	g2="uniF69D,uniF69E"
+	k="41" />
+    <hkern g1="comma,ellipsis,period"
+	g2="Zcaronsmall,uniF6AB,uniF6AC"
+	k="-10" />
+    <hkern g1="uniF641"
+	g2="comma,ellipsis,period"
+	k="42" />
+    <hkern g1="uniF641"
+	g2="uniF63A"
+	k="5" />
+    <hkern g1="uniF641"
+	g2="uniF6DC"
+	k="14" />
+    <hkern g1="zerooldstyle"
+	g2="threeoldstyle"
+	k="22" />
+    <hkern g1="zerooldstyle"
+	g2="sevenoldstyle"
+	k="18" />
+    <hkern g1="zerooldstyle"
+	g2="oneoldstyle"
+	k="7" />
+    <hkern g1="zerooldstyle"
+	g2="fouroldstyle"
+	k="11" />
+    <hkern g1="zerooldstyle"
+	g2="twooldstyle"
+	k="18" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="-40" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="10" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Yacutesmall,Ydieresissmall"
+	k="40" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="A"
+	k="-55" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="10" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Xsmall"
+	k="-10" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="-4" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="uniF69D,uniF69E"
+	k="40" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="-10" />
+    <hkern g1="quotedblbase,quotesinglbase"
+	g2="Zcaronsmall,uniF6AB,uniF6AC"
+	k="-10" />
+    <hkern g1="uniF63B"
+	g2="comma,ellipsis,period"
+	k="18" />
+    <hkern g1="uniF63B"
+	g2="uniF640"
+	k="-7" />
+    <hkern g1="uniF63B"
+	g2="uniF641"
+	k="3" />
+    <hkern g1="uniF63B"
+	g2="uniF63C"
+	k="-13" />
+    <hkern g1="uniF63B"
+	g2="uniF63A"
+	k="6" />
+    <hkern g1="uniF63B"
+	g2="uniF63D"
+	k="4" />
+    <hkern g1="uniF63B"
+	g2="uniF6DC"
+	k="16" />
+    <hkern g1="uniF63B"
+	g2="uniF63F"
+	k="4" />
+    <hkern g1="uniF63B"
+	g2="uniF63B"
+	k="4" />
+    <hkern g1="threeoldstyle"
+	g2="sevenoldstyle"
+	k="8" />
+    <hkern g1="threeoldstyle"
+	g2="eightoldstyle"
+	k="5" />
+    <hkern g1="threeoldstyle"
+	g2="fiveoldstyle"
+	k="12" />
+    <hkern g1="threeoldstyle"
+	g2="fouroldstyle"
+	k="-8" />
+    <hkern g1="threeoldstyle"
+	g2="twooldstyle"
+	k="1" />
+    <hkern g1="uniF639"
+	g2="comma,ellipsis,period"
+	k="30" />
+    <hkern g1="uniF639"
+	g2="uniF640"
+	k="-3" />
+    <hkern g1="uniF639"
+	g2="uniF63C"
+	k="-2" />
+    <hkern g1="uniF639"
+	g2="uniF63A"
+	k="5" />
+    <hkern g1="uniF639"
+	g2="uniF63D"
+	k="-3" />
+    <hkern g1="uniF639"
+	g2="uniF6DC"
+	k="34" />
+    <hkern g1="uniF639"
+	g2="uniF63F"
+	k="1" />
+    <hkern g1="uniF639"
+	g2="uniF63B"
+	k="16" />
+    <hkern g1="uniF63F"
+	g2="comma,ellipsis,period"
+	k="116" />
+    <hkern g1="uniF63F"
+	g2="uniF640"
+	k="16" />
+    <hkern g1="uniF63F"
+	g2="uniF639"
+	k="16" />
+    <hkern g1="uniF63F"
+	g2="uniF63E"
+	k="30" />
+    <hkern g1="uniF63F"
+	g2="uniF63C"
+	k="44" />
+    <hkern g1="uniF63F"
+	g2="uniF63A"
+	k="5" />
+    <hkern g1="uniF63F"
+	g2="uniF63D"
+	k="5" />
+    <hkern g1="uniF63F"
+	g2="uniF6DC"
+	k="5" />
+    <hkern g1="uniF63F"
+	g2="uniF63F"
+	k="-8" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="5" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="comma,ellipsis,period"
+	k="-15" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="-8" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="22" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="Yacutesmall,Ydieresissmall"
+	k="39" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="quotedblleft,quoteleft"
+	k="13" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="quotedbl,quotesingle"
+	k="8" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="quotedblright,quoteright"
+	k="55" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="4" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="colon,semicolon"
+	k="-3" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="questionsmall"
+	k="-3" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="guillemetright,guilsinglright,uniF6B7,uniF6B9"
+	k="-23" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="uniF69D,uniF69E"
+	k="48" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="emdash,endash,hyphen,softhyphen,uniF6BA,uniF6BB,uniF6BC"
+	k="-3" />
+    <hkern g1="Lslashsmall,uniF68A,uniF68B,uniF68C"
+	g2="guillemetleft,guilsinglleft,uniF6B6,uniF6B8"
+	k="-10" />
+    <hkern g1="uniF640"
+	g2="comma,ellipsis,period"
+	k="10" />
+    <hkern g1="uniF640"
+	g2="uniF640"
+	k="-3" />
+    <hkern g1="uniF640"
+	g2="uniF639"
+	k="-3" />
+    <hkern g1="uniF640"
+	g2="uniF641"
+	k="15" />
+    <hkern g1="uniF640"
+	g2="uniF63C"
+	k="-4" />
+    <hkern g1="uniF640"
+	g2="uniF63A"
+	k="3" />
+    <hkern g1="uniF640"
+	g2="uniF6DC"
+	k="16" />
+    <hkern g1="uniF640"
+	g2="uniF63B"
+	k="5" />
+    <hkern g1="uniF689"
+	g2="braceright,bracketright,parenright,uniF6AF,uniF6B1,uniF6B3"
+	k="7" />
+    <hkern g1="uniF689"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="27" />
+    <hkern g1="uniF689"
+	g2="quotedbl,quotesingle"
+	k="3" />
+    <hkern g1="uniF689"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="34" />
+    <hkern g1="uniF689"
+	g2="questionsmall"
+	k="3" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="comma,ellipsis,period"
+	k="132" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="100" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Yacutesmall,Ydieresissmall"
+	k="3" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="A"
+	k="110" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="5" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Xsmall"
+	k="3" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Scaronsmall,Ssmall,uniF698,uniF699,uniF69B"
+	k="8" />
+    <hkern g1="quotedbl,quotesingle"
+	g2="Zcaronsmall,uniF6AB,uniF6AC"
+	k="3" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Aacutesmall,Acircumflexsmall,Adieresissmall,Agravesmall,Aringsmall,Atildesmall,uniF66D,uniF66E,uniF66F"
+	k="40" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Uacutesmall,Ucircumflexsmall,Udieresissmall,Ugravesmall,uniF6A0,uniF6A1,uniF6A2,uniF6A3"
+	k="20" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Yacutesmall,Ydieresissmall"
+	k="23" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="A"
+	k="11" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Ccedillasmall,Oacutesmall,Ocircumflexsmall,Odieresissmall,Ogravesmall,Oslashsmall,Otildesmall,Qsmall,uniF671,uniF672,uniF67D,uniF67F,uniF692,uniF693,Qsmall.alt"
+	k="20" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Xsmall"
+	k="20" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="uniF69D,uniF69E"
+	k="23" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Ntildesmall,uniF68E,uniF68F,uniF690"
+	k="20" />
+    <hkern g1="braceleft,bracketleft,parenleft,uniF6AE,uniF6B0,uniF6B2"
+	g2="Eacutesmall,Ecircumflexsmall,Edieresissmall,Egravesmall,Ethsmall,Fsmall,Lslashsmall,Thornsmall,uniF675,uniF676,uniF678,uniF679,uniF67A,uniF67C,uniF689,uniF68A,uniF68B,uniF68C,uniF695,uniF696,uniF697"
+	k="20" />
+  </font>
+</defs></svg>
