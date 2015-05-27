@@ -4,7 +4,7 @@
 # Enable latest version of php on ICD
 
 # AddHandler application/x-httpd-php54 .php
-# AddHandler application/x-httpd-php55 .php <-- will need this after May 5, 2015
+AddHandler application/x-httpd-php55 .php # <-- might need this after May 5, 2015
 
 # ------------------------------------------------------------------------------
 # | Web fonts access                                                           |
