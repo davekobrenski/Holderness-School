@@ -1,5 +1,5 @@
 <?php
-	$cacheBust = 34067;
+	$cacheBust = 34069;
 	if(!$pageData) {
 		header("Location: /404");
 		exit;
@@ -16,7 +16,6 @@
 		<title><?=strip_tags($pageData["pageTitle"])?></title>
 		<meta name="description" content="<?=$pageData["metaDesc"]?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		
 		<meta name="apple-mobile-web-app-capable" content="yes">		
 		<?php		
 			$image = getCroppedFocalPointImageForPage($pageData["pageID"], 1200, 630, 90);
@@ -42,6 +41,14 @@
 		<meta name="twitter:image" content="<?=$twitImage["url"]?>" />
 		<?php } ?>
 		
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/favicon-16x16.png" sizes="16x16" />
+		<meta name="application-name" content="Holderness School"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileImage" content="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/mstile-144x144.png" />
+		
 		<?php
 			$typeKitJS = "typekitConfig = {kitId: 'nuf7kjc'};(function() {var tk = document.createElement('script');tk.src = '//use.typekit.net/' + typekitConfig.kitId + '.js';tk.async = 'true';tk.onload = tk.onreadystatechange = function() {var rs = this.readyState;if (rs && rs != 'complete' && rs != 'loaded') return;try { Typekit.load(typekitConfig); } catch (e) {}};var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tk, s);})();";
 			
@@ -66,7 +73,7 @@
 				echo 'Bugsnag.user = {id: '.$logged_user["id"].',name: "'.$logged_user["fname"].' '.$logged_user["lname"].'",email: "'.$logged_user["email"].'"};' . "";
 				} ?> typekitConfig = {kitId: 'nuf7kjc'};(function() {var tk = document.createElement('script');tk.src = '//use.typekit.net/' + typekitConfig.kitId + '.js';tk.async = 'true';tk.onload = tk.onreadystatechange = function() {var rs = this.readyState;if (rs && rs != 'complete' && rs != 'loaded') return;try { Typekit.load(typekitConfig); } catch (e) {}};var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tk, s);})();</script>
 		<script type="text/javascript" src="/assets/js/modernizr.min.js"></script>
-		<link rel="stylesheet" href="/assets/css/styles-min.<?=$cacheBust?>.css">
+		<link rel="stylesheet" href="/assets/css/styles.<?=$cacheBust?>.css">
 		<?=$pageData["headerInject"]?>
     </head>
     <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.'"'?>>

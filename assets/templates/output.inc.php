@@ -3,10 +3,14 @@
 	$parser = new ParsedownExtra();
 	$smarty = new \Michelf\SmartyPants();
 	
-	if(!empty($pageData["getContentFrom"])) {
-		$contentBlocks = getPageContentBlocks($pageData["getContentFrom"]);
+	if(is_array($specialContentBlocks)) {
+		$contentBlocks = $specialContentBlocks;
 	} else {
-		$contentBlocks = getPageContentBlocks($pageData["pageID"]);
+		if(!empty($pageData["getContentFrom"])) {
+			$contentBlocks = getPageContentBlocks($pageData["getContentFrom"]);
+		} else {
+			$contentBlocks = getPageContentBlocks($pageData["pageID"]);
+		}
 	}
 	
 	if(is_array($contentBlocks) && count($contentBlocks) > 0) {
@@ -41,7 +45,7 @@
 					if($content["isMarkdown"] != 1) {
 						echo $smarty->transform($content["htmlData"]);
 					} else {
-						$contents =$content["htmlData"];
+						$contents = $content["htmlData"];
 						$contents = $smarty->transform($contents); //smarty
 						$contents = $parser->text($contents); //markdown parser
 						echo $contents;

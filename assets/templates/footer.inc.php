@@ -49,9 +49,9 @@
 		
 	</div> <!-- /.main-wrapper -->
 	
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>	
-	<script src="assets/js/min/main-min.<?=$cacheBust?>.js"></script>
+	<script data-cfasync="true" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script data-cfasync="true" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>	
+	<script data-cfasync="true" src="assets/js/min/main-min.<?=$cacheBust?>.js"></script>
 	<?=$pageData["footerInject"]?>
-    </body>
+	</body>
 </html>

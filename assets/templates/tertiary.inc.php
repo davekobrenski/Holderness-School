@@ -12,6 +12,10 @@ if(is_array($pageData["originalData"])) {
 
 $bread = getBreadCrumbDataForPageIDs($crumbs);
 
+if($pageData["404"]) {
+	unset($bread);
+}
+
 if(is_array($bread) && count($bread) > 0) {
 	echo '<div class="breadcrumb-nav">
 		<ul class="breadcrumb">';
