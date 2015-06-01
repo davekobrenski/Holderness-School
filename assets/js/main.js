@@ -406,6 +406,19 @@ function initMapBoxContactMap() {
 	}
 }
 
+//some style fixes
+function styleFixes() {
+	if($('footer').css('position') == 'absolute') {
+		var height = $('footer').eq(0).height();
+		$('.tertiary .page-content').css({marginBottom: height+'px'});
+		
+		var minHeight = ($(window).height() - $('.main-nav').outerHeight() - $('.primary-nav').height() - $('footer').height()) + 3;
+		$('.tertiary .outer-contain').css({minHeight: minHeight+'px'});
+	} else {
+		$('.tertiary .page-content').css({marginBottom: '0'});
+	}
+}
+
 //Preloader - when everything is loaded...
 	jQuery(window).load(function () {
 		//preload the rest of the carousel images
@@ -432,19 +445,6 @@ function initMapBoxContactMap() {
 			}, 1600);	
 		}, 800);	
 	});
-
-//some style fixes
-function styleFixes() {
-	if($('footer').css('position') == 'absolute') {
-		var height = $('footer').eq(0).height();
-		$('.tertiary .page-content').css({marginBottom: height+'px'});
-		
-		var minHeight = ($(window).height() - $('.main-nav').outerHeight() - $('.primary-nav').height() - $('footer').height()) + 3;
-		$('.tertiary .outer-contain').css({minHeight: minHeight+'px'});
-	} else {
-		$('.tertiary .page-content').css({marginBottom: '0'});
-	}
-}
 
 //when document is ready
 	$(function() {

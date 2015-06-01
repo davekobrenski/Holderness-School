@@ -85,6 +85,9 @@ if($displayStyle == "list") {
 		if(is_array($useAccts) && count($useAccts) > 0) {
 			foreach($useAccts as $acct) {
 				$acct = trim(strip_tags($acct));
+				
+				if(substr($acct, 0, 1) == '@') $acct = substr_replace($acct, '', 0, 1);
+				
 				$content = $connection->get("statuses/user_timeline", array("screen_name"=>"$acct", "count"=>$maxToShow+15, "exclude_replies"=>true, "include_rts"=>false, "trim_user"=>true));
 				$tweets = (array)$content;
 				foreach($tweets as $tweet) {
@@ -94,7 +97,7 @@ if($displayStyle == "list") {
 					$dateDay = date("j", $dateString);
 					$parsed = jsonTweetTextToHTML($tweet, false);
 					$parsed = $smarty->transform($parsed); //smarty
-					$allTweets["$dateString"][] = "<blockquote class=\"tweet\"><p>$parsed <br><cite><a href=\"https://twitter.com/$acct/status/$tweetID\">@$acct</a></cite></p></blockquote>";
+					$allTweets["$dateString"][] = "<blockquote class=\"tweet\"><p>$dateMonth $dateDay: $parsed <br><cite><a href=\"https://twitter.com/$acct/status/$tweetID\">@$acct</a></cite></p></blockquote>";
 				}
 			}
 			
