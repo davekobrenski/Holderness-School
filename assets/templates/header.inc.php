@@ -1,5 +1,5 @@
 <?php
-	$cacheBust = 34078;
+	$cacheBust = 34079;
 	if(!$pageData) {
 		header("Location: /404");
 		exit;
@@ -77,6 +77,10 @@
 		<?=$pageData["headerInject"]?>
     </head>
     <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.'"'?>>
+	    <?php
+		    //google analytics code, if it's set in the 'site settings' tab of the cms
+		    include($templatesDir . "/analytics.inc.php");
+	    ?>
 	    <div id="preloader">
 		    <div class="preload-msg">
 			    <div class="preload-inner">
