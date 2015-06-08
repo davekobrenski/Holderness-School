@@ -159,11 +159,18 @@
 				font-size: 28px;
 				.opacity(.7);
 				letter-spacing: 1px;
-				> .numbers {
-					//font-family: 'proxima-nova';
-					//font-weight: 600;
-					//font-size: .9em;
-					//font-weight: 600;
+				a {
+					color: #fff;
+					.fa {
+						display: none;
+						font-size: .8em;
+					}
+					&:hover {
+						text-decoration: none;
+						.fa {
+							display: inline;
+						}
+					}
 				}
 			}
 			ul {
@@ -211,6 +218,11 @@
 		&.events {
 			padding-left: 2px;
 			.content {background: @holderness-red;}
+			h2 {
+				&:hover {
+					.opacity(1);
+				}
+			}
 		}
 		
 	}

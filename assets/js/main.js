@@ -136,10 +136,12 @@ function initSecondaryContent() {
 			var twitterBlockID = $('#news-loader').attr('data-block-id');
 			var eventsBlockID = $('#events-loader').attr('data-block-id');
 			var twitterTitle = $('#news-loader').attr('data-title');
+			
 			var eventsTitle = $('#events-loader').attr('data-title');
+			var eventsLinksTo = $('#events-loader').attr('data-linksto');
 			
 			$('#news-loader').load('assets/ajax/loadNewsList.php', {blockID:twitterBlockID, title: twitterTitle, displayStyle:$('#news-loader').attr('data-display')});
-			$('#events-loader').load('assets/ajax/loadEventsSchedule.php', {blockID:eventsBlockID, title: eventsTitle});		
+			$('#events-loader').load('assets/ajax/loadEventsSchedule.php', {blockID:eventsBlockID, title: eventsTitle, linkTo: eventsLinksTo});		
 			
 			if(!Modernizr.hiddenscroll) {	
 				$('#news-schedule .inner').niceScroll({cursorborder:'none', preservenativescrolling:false, cursorborderradius:'0px', cursorwidth:'8px', autohidemode:'leave', cursoropacitymax:.8});
@@ -420,7 +422,7 @@ function styleFixes() {
 }
 
 //Preloader - when everything is loaded...
-	jQuery(window).load(function () {
+	jQuery(window).load(function() {
 		//preload the rest of the carousel images
 		preloadCarouselImages(function() {
 			//$('.carousel-control').show(); //do something here...?
@@ -438,6 +440,8 @@ function styleFixes() {
 			//load secondary content, stuff that is below the fold and might otherwise slow up page load
 			initSecondaryContent();
 			initMapBoxContactMap();
+			
+			//$foobar('Testing the ');
 			
 			//after page is shown, some eye candy
 			setTimeout(function() {

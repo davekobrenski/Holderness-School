@@ -7,10 +7,6 @@ $dayOffset = 0; //not using - normally, get this from post values. default is 0
 
 $smarty = new \Michelf\SmartyPants();
 $parser = new ParsedownExtra();
-/*
-$contents = $smarty->transform($contents); //smarty
-$contents = $parser->text($contents); //markdown parser	
-*/
 
 if(!empty($_POST["blockID"])) {
 	$blockData = getPageContentBlock($_POST["blockID"]);
@@ -52,6 +48,8 @@ while ($i < $numDays) {
 $optParams = array();
 $optParams["timeMin"] = date("Y-m-d", $startShowing) . "T00:00:00Z";
 $optParams["timeMax"] = date("Y-m-d", $endShowing) . "T10:00:00Z";
+
+if(!empty($_POST["title"])) echo '<h2>' . (!empty($_POST["linkTo"]) ? '<a href="'.$_POST["linkTo"].'">' : '') . $_POST["title"] . (!empty($_POST["linkTo"]) ? ' <i class="fa fa-arrow-circle-o-right"></i></a>' : '') . '</h2>';
 
 echo '<ul class="list-unstyled">';
 
@@ -142,7 +140,7 @@ echo '<ul class="list-unstyled">';
 		
 		foreach($allEvents as $day=>$events) {
 			if(is_array($events) && count($events) > 0) {
-				echo '<li><h2>'.strtolower(date("l, F", strtotime($day))).' <span class="numbers">'.date("j", strtotime($day)).'</span></h2></li>';
+				echo '<li><h3>'.strtolower(date("l, F", strtotime($day))).' <span class="numbers">'.date("j", strtotime($day)).'</span></h3></li>';
 				ksort($events);
 				foreach($events as $time=>$things) {
 					if($time == "00:00:00") {

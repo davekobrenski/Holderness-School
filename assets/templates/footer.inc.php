@@ -53,5 +53,9 @@
 	<script data-cfasync="true" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>	
 	<script data-cfasync="true" src="assets/js/min/main-min.<?=$cacheBust?>.js"></script>
 	<?=$pageData["footerInject"]?>
+	 <?php
+		//Hello bar code, if it's set in the 'site settings' tab of the cms
+		include($templatesDir . "/hellobar.inc.php");
+	?>
 	</body>
 </html>
