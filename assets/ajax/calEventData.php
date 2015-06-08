@@ -29,7 +29,7 @@ if(isset($_GET["sID"]) && isset($_GET["eID"]) && isset($_GET["cID"])) {
 				$eventData["summary"] = $smarty->transform($event->getSummary()); //$event->getSummary();
 				
 				$eventData["description"] = $smarty->transform($event->getDescription()); //$event->getDescription();
-				$eventData["description"] = strip_tags($parser->text(trim($eventData["description"])), "<a><p>");
+				$eventData["description"] = strip_tags($parser->text(trim($eventData["description"])), "<a><p><br><em><strong>");
 				
 				$eventData["location"] = trim($event->getLocation());
 				$eventData["calendar"] = $calendarName;

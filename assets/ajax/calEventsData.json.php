@@ -69,7 +69,7 @@ if(!empty($_GET["blockID"])) {
 									$eventData["summary"] = $smarty->transform($event->getSummary()); //$event->getSummary();
 									
 									$eventData["description"] = $smarty->transform($event->getDescription()); //$event->getDescription();
-									$eventData["description"] = strip_tags($parser->text($eventData["description"]), "<a><p><em>");
+									$eventData["description"] = strip_tags($parser->text($eventData["description"]), "<a><p><em><br><strong>");
 									
 									$eventData["location"] = $event->getLocation();
 									$eventData["calendar"] = $calendarName;
