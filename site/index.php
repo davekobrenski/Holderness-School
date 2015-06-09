@@ -9,14 +9,14 @@ if(is_array($_SERVER["argv"]) && count($_SERVER["argv"]) > 0) {
 }
 
 if(!$pageData) {
-	header("Location: /404");
+	header("Location: /missing");
 	exit;
 }
 
 //only admins can see disabled pages
 if($pageData["enabled"] != 1) {
 	if(!check_valid_user(1)) {
-		header("Location: /404"); //maybe make this someting else? tell them they must be logged in to see the page?
+		header("Location: /missing"); //maybe make this someting else? tell them they must be logged in to see the page?
 		exit;
 	}
 }
