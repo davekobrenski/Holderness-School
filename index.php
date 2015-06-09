@@ -20,6 +20,12 @@ if(trim($pageData["ogDesc"]) == '') {
 
 $pageData["info_twitter"] = $defaults["info_twitter"];
 
+//set a flag if their is a site-wide notification bar
+$hasAlertClass = '';
+if($defaults["alert_showing"] == 1) {
+	$hasAlertClass = 'has-alert';
+}
+
 include($siteHeader);
 include($templatesDir . "/index.inc.php");
 include($siteFooter);	

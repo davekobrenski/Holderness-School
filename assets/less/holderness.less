@@ -27,6 +27,19 @@ body {
 	//deal with ligatures if need be
 	//font-variant-ligatures: no-common-ligatures;
 	//font-feature-settings: "liga" 0, "clig" 0;
+	
+	&.has-alert {
+		margin-top: 0px;
+		@media (min-width: @grid-float-breakpoint) {
+			margin-top: @alertbar-height;
+		}
+		.main-nav.navbar-fixed-top {
+			top: @alertbar-height;
+			@media (min-width: @grid-float-breakpoint) {
+				top: 0px;
+			}
+		}
+	}
 }
 
 .main-wrapper {

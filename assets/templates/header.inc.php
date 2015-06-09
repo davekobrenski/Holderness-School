@@ -1,5 +1,5 @@
 <?php
-	$cacheBust = 34092;
+	$cacheBust = 34120;
 	if(!$pageData) {
 		header("Location: /404");
 		exit;
@@ -75,24 +75,27 @@
 		<script type="text/javascript" src="/assets/js/modernizr.min.js"></script>
 		<link rel="stylesheet" href="/assets/css/styles.<?=$cacheBust?>.css">
 		<?=$pageData["headerInject"]?>
-    </head>
-    <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.'"'?>>
-	    <?php
-		    //google analytics code, if it's set in the 'site settings' tab of the cms
-		    include($templatesDir . "/analytics.inc.php");
-	    ?>
-	    <div id="preloader">
-		    <div class="preload-msg">
-			    <div class="preload-inner">
-				    <p><img src="/assets/images/holderness-stacked.gif" alt=""></p>
+   </head>
+   <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.' '.$hasAlertClass.'"'?>>
+		<?php
+			//google analytics code, if it's set in the 'site settings' tab of the cms
+			include($templatesDir . "/analytics.inc.php");
+		?>
+	   <div id="preloader">
+		   <div class="preload-msg">
+			   <div class="preload-inner">
+				   <p><img src="/assets/images/holderness-stacked.gif" alt=""></p>
 					<p><img src="/assets/images/preloader.gif" alt=""></p>
-			    </div>
-		    </div>
+			   </div>
+		   </div>
 		</div>
 		
-	    <div class="main-wrapper preloader-hide">
-		    
-		    <!-- main navigation -->
+	   <div class="main-wrapper preloader-hide">
+		   <?php
+				//notifications - hello bar style
+				include($templatesDir . "/hb-alerts.inc.php");
+			?>
+		   <!-- main navigation -->
 			<nav class="navbar navbar-inverse main-nav navbar-fixed-top">
 				<div class="container-fluid">
 					<div class="navbar-header">
@@ -153,11 +156,8 @@
 									echo '<button class="btn btn-social-icon btn-round login-icon" data-href="'.$adminBaseURL.'" data-key="login" data-toggle="tooltip" data-placement="bottom" title="Administrators"></button> '; //assets/images/hs-login-icon.png
 								echo '</span></li>';
 							?>
-							
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
 			</nav>
-			
 		<div class="page-content">	
-			

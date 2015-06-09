@@ -1,0 +1,56 @@
+/* -------------------------------------------------- 
+	:: WOAHbar
+---------------------------------------------------*/
+
+.woahbar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: @alertbar-height;
+	z-index: 100;
+	padding: 0;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+	background-color: @holderness-red;
+	border-bottom: 2px solid rgba(255,255,255,.8); /* << set custom bottom border thickness & color here */
+	box-shadow: 0px 2px 4px 1px rgba(0,0,0,.3);
+	
+	@media (min-width: @screen-xs-min) {
+		height: @alertbar-height;
+		max-height: @alertbar-height;
+		overflow: hidden;
+	}
+	
+	.msg {
+		text-align: center;
+		min-height: @alertbar-height;
+		display: block; /* this is also a flag for js */
+		margin: 0;
+		padding: 6px 4px;
+		
+		@media (min-width: @screen-xs-min) {
+			height: @alertbar-height;
+			max-height: @alertbar-height;
+			overflow: hidden;
+			line-height: @alertbar-height;
+			margin: -1px 0 0;
+			display: inline-block;
+			padding: 0;
+		}
+		
+		.alert-link {
+			color: #fff;
+		}
+		
+		.btn {
+			font-family: @small-caps-fontface;
+			font-weight: @small-caps-fontweight;
+			text-transform: @small-caps-transform;
+			font-size:.8em;
+			padding: 1px 7px;
+			border-color: darken(@holderness-red, 9%);
+		}
+	}
+}

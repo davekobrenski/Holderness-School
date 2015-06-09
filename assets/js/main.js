@@ -421,6 +421,18 @@ function styleFixes() {
 	}
 }
 
+function alertBarFixes() {
+	//has-alert
+	if($('body').hasClass('has-alert')) {
+		if($('.woahbar .msg').css('display') == 'block') {
+			var alertHeight = $('.woahbar .msg').eq(0).outerHeight();
+			$('.main-nav.navbar-fixed-top').css({top:alertHeight+'px'});
+		} else {
+			$('.main-nav.navbar-fixed-top').css('top','');
+		}
+	}
+}
+
 //Preloader - when everything is loaded...
 	jQuery(window).load(function() {
 		//preload the rest of the carousel images
@@ -557,6 +569,14 @@ function styleFixes() {
 					styleFixes();
 				}
 			});
+			
+			alertBarFixes();
+			on_resize(function() {
+				alertBarFixes();
+			});
+			
+			
+			//$(window).on("orientationchange",function(){
 	});
 
 

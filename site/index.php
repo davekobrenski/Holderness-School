@@ -82,6 +82,12 @@ if($pageData["hasImage"]) {
 	$hasImgClass = 'has-image';
 }
 
+//set a flag if their is a site-wide notification bar
+$hasAlertClass = '';
+if($defaults["alert_showing"] == 1) {
+	$hasAlertClass = 'has-alert';
+}
+
 $pageProtected = false;
 $loginFormClass = '';
 if(trim($pageData["password"]) != '' && (!is_array($_SESSION["protected-pages"]) || !in_array($pageData['pageID'], $_SESSION["protected-pages"]))) {
