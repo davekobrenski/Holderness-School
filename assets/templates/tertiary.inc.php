@@ -5,7 +5,12 @@ $smarty = new \Michelf\SmartyPants();
 
 //breadcrumb nav
 if(is_array($pageData["originalData"])) {
-	$crumbs = array($pageData["originalData"]["topParent"], $pageData["originalData"]["parentID"], $pageData["originalData"]["pageID"]);
+	//arr($pageData["originalData"]);
+	if($pageData["originalData"]["topParent"] == $pageData["originalData"]["parentID"]) {
+		$crumbs = array($pageData["originalData"]["topParent"], $pageData["originalData"]["pageID"]);
+	} else {
+		$crumbs = array($pageData["originalData"]["topParent"], $pageData["originalData"]["parentID"], $pageData["originalData"]["pageID"]);
+	}
 } else {
 	$crumbs = array($pageData["topParent"], $pageData["parentID"], $pageData["pageID"]);
 }

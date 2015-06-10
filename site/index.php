@@ -63,19 +63,6 @@ if(trim($pageData["ogDesc"]) == '') {
 
 $pageData["info_twitter"] = $defaults["info_twitter"];
 
-//figure out where in the nav it is: primary, secondary, etc
-$templateClass = '';
-if($pageData["parentID"] == null) {
-	$templateClass = 'primary';
-} else {
-	$parentData = getWebPageData($pageData["parentID"]);
-	if($parentData["parentID"] == null) {
-		$templateClass = 'secondary';
-	} else {
-		$templateClass = 'tertiary';
-	}
-}
-
 //set a flag depending on whether there is an image for this page
 $hasImgClass = 'no-image';
 if($pageData["hasImage"]) {
@@ -95,11 +82,24 @@ if(trim($pageData["password"]) != '' && (!is_array($_SESSION["protected-pages"])
 	$loginFormClass = 'loginform '; //leave the space at the end
 }
 
+//figure out where in the nav it is: primary, secondary, etc
+$templateClass = '';
+if($pageData["parentID"] == null) {
+	$templateClass = 'primary';
+} else {
+	$parentData = getWebPageData($pageData["parentID"]);
+	if($parentData["parentID"] == null) {
+		$templateClass = 'secondary';
+	} else {
+		$templateClass = 'tertiary';
+	}
+}
+
 //experimental. for pages that are a "duplicate" of another, just swap out its content for the other page. needs testing
 if($pageData["pageType"] == "link") {
 	$linkedPage = getWebPageBySlug($pageData["externalURL"]);
 	if(!is_array($linkedPage)) {
-		header("Location: /404");
+		header("Location: /missing");
 		exit;
 	} else {
 		$origData = $pageData;
@@ -109,6 +109,21 @@ if($pageData["pageType"] == "link") {
 		$pageData["urlSlug"] = $origData["urlSlug"];
 		$pageData["getContentFrom"] = $linkedPage["pageID"];
 		$pageData["originalData"] = $origData;
+		
+		//do we want to override the template and use the linked page's template?
+		//it may have no effect, unless the linked page is a different page level than the original page, in which case...it will have an effect.
+		if($origData["useLinkedPageTemplate"] == 1) {
+			if($linkedPage["parentID"] == null) {
+				$templateClass = 'primary';
+			} else {
+				$linkedParentData = getWebPageData($linkedPage["parentID"]);
+				if($linkedParentData["parentID"] == null) {
+					$templateClass = 'secondary';
+				} else {
+					$templateClass = 'tertiary';
+				}
+			}
+		}
 	}
 }
 

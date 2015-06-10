@@ -13,6 +13,9 @@ if(!empty($_POST["blockID"])) {
 	if(!$optionsJson["limit"]) $optionsJson["limit"] = -1;
 	if($optionsJson["limit"] == -1) {
 		$userLimit = 1000;
+	} else if($optionsJson["limit"] == -2) {
+		//single blog post
+		$userLimit = 1;
 	} else {
 		$userLimit = $optionsJson["limit"];
 	}
@@ -48,7 +51,11 @@ if(!empty($_POST["blockID"])) {
 						if($eKey !== false) {
 							//then we're good to go, use this one
 							//apparently, tumblr's api doesn't even let you sort by date, so if you want to get the most recent posts by date, you have to loop through the whole frigging thing and sort them yourself. so stupid.
-							$posts = (array)$client->getBlogPosts($blog["name"], array('limit' => 20)); //gets first 20, that's the max you can get at a time
+							if(trim($optionsJson["postID"]) != '' && is_numeric($optionsJson["postID"])) {
+								$posts = (array)$client->getBlogPosts($blog["name"], array('limit' => 1, 'id' => $optionsJson["postID"]));
+							} else {
+								$posts = (array)$client->getBlogPosts($blog["name"], array('limit' => 20)); //gets first 20, that's the max you can get at a time
+							}
 							$temp = $posts["posts"];
 							$numPosts = $posts["total_posts"];
 							$totalAllPosts = $totalAllPosts + $numPosts;
