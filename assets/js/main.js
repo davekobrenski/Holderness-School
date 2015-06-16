@@ -7,6 +7,8 @@
 // @codekit-prepend "plugins/jquery.twbsPagination.js";
 // @codekit-prepend "plugins/bootstrap-calendar/languages/en-US.js";
 // @codekit-prepend "plugins/bootstrap-calendar/calendar.js";
+// @codekit-prepend "plugins/jquery.typewatch.js";
+
 
 /* viewport units polyfill */
 (function() {
@@ -147,6 +149,44 @@
 					$('#news-schedule .inner').addClass('native-scroll');
 				}
 			}
+		
+		//init the search on employee directory
+			$('.type-employee-directory form.employee-search').each(function() {
+				var $theForm = $(this);
+				var blockID = $theForm.attr('data-block-id');
+				var $searchIn = $('#dept-employees-' + blockID).find('.person-block');
+				var $srchResults = $('#search-results-' + blockID);
+				var srchInput = $theForm.find('.search-input').eq(0);
+				var options = {
+					callback: function(value) {
+						var newHtml = '';
+						$srchResults.html('<h4>Searching&hellip;</h4>').closest('.collapse').collapse('show');
+						var numResults = 0;
+						$searchIn.each(function() {
+							var el = $(this);
+							var nameAttr = $(this).attr('data-person');
+							if(nameAttr.toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+								numResults++;
+								newHtml += el.html();
+							}
+						});
+						if(numResults > 0) {
+							$srchResults.html(newHtml);
+						} else {
+							$srchResults.html('<h4 style="margin-top: -32px">No search results found.</h4>');
+						}
+						
+					},
+					wait: 750,
+					highlight: true,
+					captureLength: 2
+				}
+				srchInput.typeWatch(options);
+				
+				$theForm.submit(function(e) {
+					e.preventDefault();
+				});
+			});
 		
 		//init other twitter feeds
 			$('.twitter-feed-block').each(function() {
