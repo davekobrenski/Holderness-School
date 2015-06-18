@@ -75,7 +75,9 @@ if(!empty($_POST["blockID"])) {
 									$date = date("Y-m-d", strtotime($post->date));
 									$ts = $post->timestamp;
 									$id = $post->id;
-									$allPosts["$date-$id"] = (array)$post;
+									if($post->state == 'published') {
+										$allPosts["$date-$id"] = (array)$post;
+									}
 								}
 							}
 						}					
@@ -89,6 +91,8 @@ if(!empty($_POST["blockID"])) {
 		//now see what we have for posts
 		if(count($allPosts) > 0) {
 			krsort($allPosts);
+			
+			//arr($allPosts);
 
 			$postPages = array_chunk($allPosts, $itemsPerPage, true); //chunk the array into pages of the specified amount so we can paginate through them. thanks, tumblr. jerks.
 			$pagesInArr = count($postPages);
