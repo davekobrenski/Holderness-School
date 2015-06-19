@@ -1,5 +1,5 @@
 <?php
-	$cacheBust = 34192;
+	$cacheBust = 34194;
 	if(!$pageData) {
 		header("Location: /404");
 		exit;

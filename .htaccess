@@ -123,6 +123,9 @@ AddDefaultCharset utf-8
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^([A-Z­a-z­0-9­-]+)/?$ /site/index.php?­page=$1 [L]
 	
+	
+	RewriteRule ^podium/default.aspx$ / [R=301,L]
+	
 	# (somewhat) cleaner image urls  -----------------------------------
 	# RewriteCond %{THE_REQUEST} ^GET\ /files/images/
 	# RewriteRule ^files/images/(.*) /config/files/images/$1 [L]

@@ -47,6 +47,8 @@ if(!empty($_POST["blockID"])) {
 				if(is_array($blogs) && count($blogs) > 0) {
 					foreach($blogs as $obj) {
 						$blog = (array)$obj;
+						$blog["blog_img"] = $client->getBlogAvatar($blog["name"], "128");
+						
 						$eKey = array_search($blog["name"], $goodBlogs);
 						if($eKey !== false) {
 							//then we're good to go, use this one
@@ -75,8 +77,11 @@ if(!empty($_POST["blockID"])) {
 									$date = date("Y-m-d", strtotime($post->date));
 									$ts = $post->timestamp;
 									$id = $post->id;
+									
 									if($post->state == 'published') {
-										$allPosts["$date-$id"] = (array)$post;
+										$thePost = (array)$post;
+										$thePost["blog_img"] = $blog["blog_img"];
+										$allPosts["$date-$id"] = $thePost;
 									}
 								}
 							}
@@ -91,7 +96,7 @@ if(!empty($_POST["blockID"])) {
 		//now see what we have for posts
 		if(count($allPosts) > 0) {
 			krsort($allPosts);
-			
+
 			//arr($allPosts);
 
 			$postPages = array_chunk($allPosts, $itemsPerPage, true); //chunk the array into pages of the specified amount so we can paginate through them. thanks, tumblr. jerks.
@@ -116,8 +121,13 @@ if(!empty($_POST["blockID"])) {
 					} 
 				}
 				echo '<div class="panel panel-default" data-tumblr-id="'.$data["id"].'">
-					<div class="panel-heading">
-						<h3 class="tumblr-header">'.(empty($data["title"]) ? date("F j, Y", $ts) : $data["title"]).'</h3>
+					<div class="panel-heading">';
+					
+						if(!empty($data["blog_img"])) {
+							echo '<img src="'.$data["blog_img"].'" class="pull-left" style="width:70px;height:70px;margin:8px 14px 0 0">';
+						}
+						
+						echo '<h3 class="tumblr-header">'.(empty($data["title"]) ? date("F j, Y", $ts) : $data["title"]).'</h3>
 						<div class="tumblr-info">
 							Posted in: '.$data["blog_name"].' '.(count($tagz) > 0 ? ' | '. implode(" ", $tagz) : '').' 
 							<br>
