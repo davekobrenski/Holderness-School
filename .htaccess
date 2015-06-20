@@ -105,10 +105,11 @@ AddDefaultCharset utf-8
 # ------------------------------------------------------------------------------
 # rewrite www.example.com → example.com
 
-<IfModule mod_rewrite.c>
-    RewriteCond %{HTTPS} !=on
+<IfModule mod_rewrite.c>   
+    RewriteCond %{HTTP_HOST} ^holdernessnh.us$ [OR]
+    RewriteCond %{HTTP_HOST} ^www.holdernessnh.us$ [OR]
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+    RewriteRule (.*)$ https://holderness.org/$1 [R=301,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------

@@ -1,8 +1,5 @@
 <?php
 	$siteSettings = getWebsiteSettingsData();
-	
-	unset($siteSettings["google_tracking_code"]); //delete this line after launch!!!
-	
 	if(!empty($siteSettings["google_tracking_code"])) {
 ?>
 <script>
