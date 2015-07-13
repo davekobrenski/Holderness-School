@@ -24,7 +24,7 @@
 			foreach($items as $contentID=>$item) {
 				$itemData = json_decode($item["dataJSON"], true);
 				if($itemData['filename']) {
-					$image = return_maxWidth_image_array(1800, 85, $itemData['filename'], 'images');
+					$image = return_maxWidth_image_array(1800, 85, $itemData['filename'], 'images', true);
 					$imgData = $itemData["imgData"];
 					
 					if(!is_array($imgData)) {
@@ -42,7 +42,7 @@
 					$posLeft = $cssData[1];	
 					
 					echo '<div class="item '.($i==0 ? 'active':'').'">
-						<div class="fill" style="background-image: url(\'config/'.$image["url"].'\'); background-position:'.$posLeft.'% '.$posTop.'%"></div>';
+						<div class="fill" style="background-image: url(\'config/'.$image["cache_url"].'\'); background-position:'.$posLeft.'% '.$posTop.'%"></div>';
 						if($itemData["captionHeader"]) {
 							echo '<div class="carousel-caption theme1"><h1>'.$itemData["captionHeader"].'</h1></div>';
 						}
