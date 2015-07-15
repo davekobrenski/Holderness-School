@@ -94,9 +94,16 @@ AddDefaultCharset utf-8
 # ------------------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
-    Options +FollowSymlinks
+	RewriteEngine On
+	Options +FollowSymlinks
+	
+	RewriteCond %{HTTPS} =on
+	RewriteRule ^ - [env=proto:https]
+	RewriteCond %{HTTPS} !=on
+	RewriteRule ^ - [env=proto:http]
+	
   # Options +SymLinksIfOwnerMatch
-    RewriteEngine On
+    
   # RewriteBase /
 </IfModule>
 
@@ -106,10 +113,17 @@ AddDefaultCharset utf-8
 # rewrite www.example.com → example.com
 
 <IfModule mod_rewrite.c>   
-    RewriteCond %{HTTP_HOST} ^holdernessnh.us$ [OR]
-    RewriteCond %{HTTP_HOST} ^www.holdernessnh.us$ [OR]
+    #RewriteCond %{HTTP_HOST} ^holdernessnh.us$ [OR]
+    #RewriteCond %{HTTP_HOST} ^www.holdernessnh.us$ [OR]
+    #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    #RewriteRule (.*)$ https://holderness.org/$1 [R=301,L]
+    
+    
+    #RewriteCond %{HTTPS} !=on
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule (.*)$ https://holderness.org/$1 [R=301,L]
+    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+    
+    
     
     #RewriteCond %{HTTP_HOST} !^www\. [NC]
     #RewriteCond %{SERVER_ADDR} !=127.0.0.1
