@@ -25,12 +25,13 @@ if($pageData["hasImage"]) {
 
 $smarty = new \Michelf\SmartyPants();
 $pageData["navTitle"] = $smarty->transform($pageData["navTitle"]);
+$pageData["pageTitle"] = $smarty->transform($pageData["pageTitle"]);
 ?>
 
 <div class="container outer-contain">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-4 header-content">
-			<h1 class="page-title"><?=$pageData["navTitle"]?></h1>
+			<h1 class="page-title"><?=$pageData["pageTitle"]?></h1>
 		</div>
 	</div>
 	

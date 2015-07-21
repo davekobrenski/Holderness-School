@@ -32,6 +32,8 @@ if(is_array($bread) && count($bread) > 0) {
 }
 
 $pageData["navTitle"] = $smarty->transform($pageData["navTitle"]);
+$pageData["pageTitle"] = $smarty->transform($pageData["pageTitle"]);
+
 ?>
 
 
@@ -40,7 +42,7 @@ $pageData["navTitle"] = $smarty->transform($pageData["navTitle"]);
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="page-title"><?=$smarty->transform($pageData["navTitle"])?></h1>
+						<h1 class="page-title"><?=$smarty->transform($pageData["pageTitle"])?></h1>
 					</div>
 					<div class="col-md-12 inner-content">
 						<?php include($templatesDir . "/output.inc.php"); ?>
