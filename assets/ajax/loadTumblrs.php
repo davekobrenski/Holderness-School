@@ -133,7 +133,7 @@ if(!empty($_POST["blockID"])) {
 						<div class="tumblr-info">
 							Posted in: '.$data["blog_name"].' '.(count($tagz) > 0 ? ' | '. implode(" ", $tagz) : '').' 
 							<br>
-							<span class="text-muted">'.date("F j, Y", strtotime($date)).'</span>
+							<span class="text-muted">'.date("F j, Y", strtotime($data["date"])).'</span>
 						</div>
 					</div>
 					<div class="panel-body">';
