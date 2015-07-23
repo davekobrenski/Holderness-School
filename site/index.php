@@ -29,6 +29,7 @@ if(trim($pageData["password"]) != '') {
 			if(!empty($_POST["password"])) {
 				if(encrypt(trim($_POST["password"]), SALT) == $pageData["password"]) {
 					//good to go
+					if(!is_array($_SESSION["protected-pages"])) $_SESSION["protected-pages"] = array();
 					if(!in_array($pageData['pageID'], $_SESSION["protected-pages"])) {
 						$_SESSION["protected-pages"][] = $pageData['pageID'];
 					}
