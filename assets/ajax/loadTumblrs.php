@@ -73,15 +73,17 @@ if(!empty($_POST["blockID"])) {
 										$onPage++;
 									}
 								}
-								foreach($temp as $post) {
-									$date = date("Y-m-d", strtotime($post->date));
-									$ts = $post->timestamp;
-									$id = $post->id;
-									
-									if($post->state == 'published') {
-										$thePost = (array)$post;
-										$thePost["blog_img"] = $blog["blog_img"];
-										$allPosts["$date-$id"] = $thePost;
+								if(is_array($temp)) {
+									foreach($temp as $post) {
+										$date = date("Y-m-d", strtotime($post->date));
+										$ts = $post->timestamp;
+										$id = $post->id;
+										
+										if($post->state == 'published') {
+											$thePost = (array)$post;
+											$thePost["blog_img"] = $blog["blog_img"];
+											$allPosts["$date-$id"] = $thePost;
+										}
 									}
 								}
 							}
