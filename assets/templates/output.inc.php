@@ -14,7 +14,9 @@
 	}
 	
 	if(is_array($contentBlocks) && count($contentBlocks) > 0) {
-		echo '<div class="row inner-flex">';
+		echo '<div class="row inner-flex">
+			<div class="content-block type-top-spacer col-md-12"></div>';
+		
 		foreach($contentBlocks as $content) {
 			
 			$optionsJson = json_decode($content["optionsJson"], true);
