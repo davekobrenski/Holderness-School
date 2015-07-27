@@ -124,7 +124,7 @@
 			<div class="content">
 				<div class="seal hidden-xs"></div>
 				<div class="inner">
-					<div id="events-loader" data-block-id="<?=$eventsBlockID?>" data-title="calendar" data-linksto="/events">
+					<div id="events-loader" data-block-id="<?=$eventsBlockID?>" data-title="calendar" data-linksto="/calendar">
 						<h2><i class="fa fa-spin fa-spinner"></i> loading calendar</h2>
 					</div>
 				</div>
