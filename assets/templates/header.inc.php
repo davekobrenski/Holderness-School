@@ -75,6 +75,28 @@
 		<script type="text/javascript" src="/assets/js/modernizr.min.js"></script>
 		<link rel="stylesheet" href="/assets/css/styles.<?=$cacheBust?>.css">
 		<?=$pageData["headerInject"]?>
+		
+		<script>
+			!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+			arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+			d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+			insertBefore(d,q)}(window,document,'script','_gs');
+			
+			_gs('GSN-660130-Z'); <?php if(check_valid_user(1)) { 
+				$userAvatar = getUserAvatarUrl($logged_user["token"], 75, 75, 95);
+				if(strpos($userAvatar, 'http') !== 0) {
+					$userAvatar = "https://" . $publicDomain . $userAvatar;
+				}
+			?>
+
+			_gs('identify', {
+			 id:    '<?=$logged_user["id"]?>',
+			 name:  '<?=$logged_user["fname"].' '.$logged_user["lname"]?>',
+			 email: '<?=$logged_user["email"]?>',
+			 avatar: '<?=$userAvatar?>'
+			});
+			<?php } ?>		
+		</script>
    </head>
    <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.' '.$hasAlertClass.'"'?>>
 		<?php
