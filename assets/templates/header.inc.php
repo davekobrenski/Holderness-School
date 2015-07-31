@@ -4,12 +4,12 @@
 		header("Location: /404");
 		exit;
 	}
-	if($_SERVER["REMOTE_ADDR"] == "216.107.193.66") {
-		if(!empty($_SESSION['internalVisitorID'])) {
-			$internalVisitorID = $_SESSION['internalVisitorID'];
+	if($_SERVER["REMOTE_ADDR"] == "216.107.193.66" || $_SERVER["REMOTE_ADDR"] == "74.75.100.53") {
+		if(!empty($_COOKIE['intVisID'])) {
+			$intVisID = $_COOKIE['intVisID'];
 		} else {
-			$internalVisitorID = uniqid();
-			$_SESSION['internalVisitorID'] = $internalVisitorID;
+			$intVisID = uniqid();
+			setcookie('intVisID', $intVisID, time() + (86400 * 30));
 		}
 	}
 
@@ -89,31 +89,35 @@
 			!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
 			arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
 			d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-			insertBefore(d,q)}(window,document,'script','_gs');
-			
-			_gs('GSN-660130-Z'); <?php if(check_valid_user(1)) { 
+			insertBefore(d,q)}(window,document,'script','_gs');		
+			_gs('GSN-660130-Z'); 
+			<?php if(check_valid_user(1)) {
 				$userAvatar = getUserAvatarUrl($logged_user["token"], 75, 75, 95);
 				if(strpos($userAvatar, 'http') !== 0) {
 					$userAvatar = "https://" . $publicDomain . $userAvatar;
 				}
 			?>
-
 			_gs('identify', {
-			 id:    '<?=$logged_user["id"]?>',
-			 name:  '<?=$logged_user["fname"].' '.$logged_user["lname"]?>',
-			 email: '<?=$logged_user["email"]?>',
-			 avatar: '<?=$userAvatar?>'
+				id:    '<?=$logged_user["id"]?>',
+				name:  '<?=$logged_user["fname"].' '.$logged_user["lname"]?>',
+				email: '<?=$logged_user["email"]?>',
+				avatar: '<?=$userAvatar?>'
 			});
 			<?php } else {
-				
-			if($_SERVER["REMOTE_ADDR"] == "216.107.193.66") { ?>
-				_gs('identify', {
-				id: '<?=$_SESSION['internalVisitorID']?>',
-				name:  'Holderness Internal Visitor',
+				if($_SERVER["REMOTE_ADDR"] == "216.107.193.66") { ?>
+			_gs('identify', {
+				id: '<?=$intVisID?>',
+				name:  'Holderness Internal [<?=$intVisID?>]',
 				avatar: 'https://www.holderness.org/config/files/client/default_user.png?v=1438348366'
 			});
-			<?php }
-		} ?>		
+				<?php } else if($_SERVER["REMOTE_ADDR"] == "74.75.100.53") { ?>
+			_gs('identify', {
+				id: '<?=$intVisID?>',
+				name:  'BBM Designs [<?=$intVisID?>]',
+				avatar: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-26/5057653320_727bd8dbe31e23add7fa_192.jpg'
+			});		
+				<?php } else {}
+			} ?>
 		</script>
    </head>
    <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.' '.$hasAlertClass.'"'?>>
