@@ -4,6 +4,15 @@
 		header("Location: /404");
 		exit;
 	}
+	if($_SERVER["REMOTE_ADDR"] == "216.107.193.66") {
+		if(!empty($_SESSION['internalVisitorID'])) {
+			$internalVisitorID = $_SESSION['internalVisitorID'];
+		} else {
+			$internalVisitorID = uniqid();
+			$_SESSION['internalVisitorID'] = $internalVisitorID;
+		}
+	}
+
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
@@ -95,7 +104,16 @@
 			 email: '<?=$logged_user["email"]?>',
 			 avatar: '<?=$userAvatar?>'
 			});
-			<?php } ?>		
+			<?php } else {
+				
+			if($_SERVER["REMOTE_ADDR"] == "216.107.193.66") { ?>
+				_gs('identify', {
+				id: '<?=$_SESSION['internalVisitorID']?>',
+				name:  'Holderness Internal Visitor',
+				avatar: 'https://www.holderness.org/config/files/client/default_user.png?v=1438348366'
+			});
+			<?php }
+		} ?>		
 		</script>
    </head>
    <body <?='class="'.$loginFormClass.''.($pageData["isHomePage"] == 1 ? 'index' : ($pageData["parentID"] == null || $pageData["isContactPage"] == 1 ? 'primary' : $templateClass)).' '.($pageData["isContactPage"] == 1 ? 'contact' : '').' '.$hasImgClass.' '.$hasAlertClass.'"'?>>
