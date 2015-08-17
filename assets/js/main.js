@@ -39,6 +39,33 @@
 	}
 })();
 
+/* smart resize and debounce */
+(function($,sr){
+  // debouncing function from John Hann
+  // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+  var debounce = function (func, threshold, execAsap) {
+      var timeout;
+      return function debounced () {
+          var obj = this, args = arguments;
+          function delayed () {
+              if (!execAsap)
+                  func.apply(obj, args);
+              timeout = null;
+          };
+
+          if (timeout)
+              clearTimeout(timeout);
+          else if (execAsap)
+              func.apply(obj, args);
+
+          timeout = setTimeout(delayed, threshold || 100);
+      };
+  }
+  // smartresize 
+  jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+})(jQuery,'smartresize');
+
+
 /* main site functions */
 	function getViewportDimensions() {
 		var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
@@ -46,7 +73,7 @@
 	}
 	
 	// debulked onresize handler
-	function on_resize(c,t){onresize=function(){clearTimeout(t);t=setTimeout(c,100)};return c};
+	//function on_resize(c,t){onresize=function(){clearTimeout(t);t=setTimeout(c,100)};return c};
 	
 	function initDownArrowScroller() {
 		var downArrow = $('.arrow-down');
@@ -449,7 +476,9 @@
 	//some style fixes
 	function styleFixes() {
 		if($('footer').css('position') == 'absolute') {
-			var height = $('footer').eq(0).height();
+			var height = $('footer .container-fluid').eq(0).outerHeight(true);
+			//console.log($('footer').outerHeight());
+			//console.log($('footer').eq(0).height());
 			$('.tertiary .page-content').css({marginBottom: height+'px'});
 			
 			var minHeight = ($(window).height() - $('.main-nav').outerHeight() - $('.primary-nav').height() - $('footer').height()) + 3;
@@ -605,17 +634,12 @@
 			$('.content-block.type-basic .block-inner img').addClass('img-responsive');
 			
 			styleFixes();
+			alertBarFixes();
 			//deal with discrepancies in the absolutely positioned footer height and margins etc
-			on_resize(function() {
+			$(window).smartresize(function(){
 				if($('footer').css('position') == 'absolute') {
 					styleFixes();
 				}
-			});
-			
-			alertBarFixes();
-			on_resize(function() {
 				alertBarFixes();
 			});
 	});
-
-
