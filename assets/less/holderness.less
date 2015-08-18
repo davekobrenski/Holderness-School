@@ -742,6 +742,11 @@ body.index {
 									.thumbnail {
 										border-radius: 0;
 										margin-bottom: 0;
+										@-moz-document url-prefix() {
+											.img-responsive {
+												width: 100%;
+											}
+										}
 									}
 								}
 							}
@@ -759,6 +764,12 @@ body.index {
 								margin-bottom: 20px;
 								display: inline-block;
 								position: relative;
+								@-moz-document url-prefix() {
+									.img-responsive {
+										width: 100%;
+									}
+								}
+									
 								.icon-overlay {
 									opacity: 0;
 									transition: all .4s ease-out;
@@ -798,6 +809,11 @@ body.index {
 								.thumbnail {
 									margin-bottom: 0;
 									display: inline-block;
+									@-moz-document url-prefix() {
+										.img-responsive {
+											width: 100%;
+										}
+									}
 								}
 								.book-info {
 									.bk-title {
@@ -823,6 +839,11 @@ body.index {
 						.thumbnail {
 							margin-bottom: 0;
 							display: inline-block;
+							@-moz-document url-prefix() {
+								.img-responsive {
+									width: 100%;
+								}
+							}
 						}
 						.book-info {
 							.bk-title {

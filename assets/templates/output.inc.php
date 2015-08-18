@@ -627,7 +627,7 @@
 											} else {
 												if(!empty($person["photo"]) && is_file($staffPhotos . "/" . $person["photo"])) {
 													$pic = return_cropped_image_array(200, 200, 85, $person["photo"], USER_ICONS);
-													$personIcon = $pic["url"];
+													$personIcon = ADMIN_BASE_DIR ."/". $pic["url"];
 												}
 											}
 											
