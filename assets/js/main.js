@@ -616,7 +616,7 @@
 		
 		//MISC style helpers
 			var els = $('.page-content .inner-content .row').children();
-			var first = $(els[0]);
+			var first = $(els[1]);
 			if(first.is('.type-basic')) {
 				var content = $(first).children('.block-inner').eq(0);
 				var firstEl = $(content).children().eq(0);

@@ -724,7 +724,7 @@ body.index {
 					}
 				}
 				
-				&.type-book-list {
+				&.type-book-list, &.type-media-gallery {
 					&.widget-block {
 						.widget {
 							.book-list-display {
@@ -859,6 +859,143 @@ body.index {
 							}
 							p:last-child {
 								margin-bottom: 0;
+							}
+						}
+					}
+				}
+				
+				//specifically for the media gallery, differs from
+				//the book lists in a couple ways
+				&.type-media-gallery {
+					.block-inner  {
+						.book-list-display {
+							.thumbnail {
+								position: relative;
+								.icon-overlay {
+									opacity: 0;
+									transition: all .4s ease-out;
+									position: absolute;
+									top: 50%;
+									left: 50%;
+									margin-left: -27px;
+									margin-top: -27px;
+									text-align: center;
+									background: rgba(0,0,0,0.6);
+									padding: 10px 13px;
+									border-radius: 50%;
+									height: 54px;
+									width: 54px;
+									.fa {
+										color: #fff;
+										font-size: 34px;
+										line-height: 1em;
+										opacity: .85;
+									}
+								}
+								&:hover {
+									.icon-overlay {
+										opacity: 1;
+									}
+								}
+							}
+						}
+						.book-gallery-display {
+							.book-item {
+								//overflow: hidden;
+							}
+							.thumbnail {
+								padding: 0;
+								border: none;
+								.caption {
+									//max-height: 58px;
+									padding-right: 0px;
+									padding-left: 0px;
+									
+									h4 {
+										margin: 12px 0 0;
+										text-align: left;
+										font-family: @main-body-fontface, serif;
+										text-transform: none;
+										color: #000;
+										font-size:21px;
+										
+										width: 98%;
+										max-height: 1.2em;
+										overflow: hidden;
+										//white-space: nowrap;
+										//text-overflow: ellipsis;
+										@-moz-document url-prefix() {
+											//white-space: normal;
+											//text-overflow: clip;
+											//max-height: 1.2em;
+										}
+									}
+								}
+								&:hover {
+									text-decoration: none;
+									.caption {
+										h4 {
+											color: @holderness-blue;
+											overflow: visible;
+										}
+									}
+								}
+								&:focus {
+									text-decoration: none;
+								}
+							}
+							.modal-dialog {
+								.modal-content {
+									.modal-body {
+										.thumbnail {
+											position: relative;
+											.icon-overlay {
+												opacity: 0;
+												transition: all .4s ease-out;
+												position: absolute;
+												top: 50%;
+												left: 50%;
+												margin-left: -27px;
+												margin-top: -27px;
+												text-align: center;
+												background: rgba(0,0,0,0.6);
+												padding: 10px 13px;
+												border-radius: 50%;
+												height: 54px;
+												width: 54px;
+												.fa {
+													color: #fff;
+													font-size: 34px;
+													line-height: 1em;
+													opacity: .85;
+												}
+											}
+											&:hover {
+												.icon-overlay {
+													opacity: 1;
+												}
+											}
+										}
+										.book-info {
+											h3.bk-title {
+												font-size:1.6em;
+												margin-bottom: 21px;
+											}
+										}
+									}
+								}
+							}
+						}
+						.book-list-display {
+							.thumbnail {
+								padding: 0;
+								border: none;
+							}
+							.book-info {
+								h3.bk-title {
+									font-size:1.6em;
+									margin-bottom: 21px;
+								}
 							}
 						}
 					}
@@ -1415,7 +1552,8 @@ body.index {
 			h1.page-title {
 				color: darken(@holderness-blue, 5%);
 				font-size: 2.4em;
-				margin-bottom: 34px;
+				//margin-bottom: 34px;
+				margin-bottom: 14px;
 				margin-top: 10px;
 			}
 			
@@ -1600,7 +1738,7 @@ body.index {
 							}
 						}
 						
-						&.type-book-list {
+						&.type-book-list, &.type-media-gallery {
 							&.widget-block {
 								.widget {
 									.book-list-display {
@@ -1621,6 +1759,14 @@ body.index {
 											}
 										}
 									}
+								}
+							}
+						}
+						
+						&.type-media-gallery {
+							.row {
+								.book-gallery-display {
+									margin-bottom: -24px;
 								}
 							}
 						}
