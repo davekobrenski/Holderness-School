@@ -145,6 +145,17 @@
 		});
 	}
 	
+	function initOpenSearchModal() {
+		$('.search-modal-open').on('click', function(){
+			$('.st-default-search-input').removeClass('st-default-search-input');
+			$('#site-search-modal').modal('show');
+			
+			$('#site-search-modal').on('shown.bs.modal', function () {
+				$('#site-search-input').focus();
+			});
+		});
+	}
+	
 	function loadInstagramBlock(blockID, page, callbackFunc) {
 		//instagram-feed
 		var instaBlock = '#instagram-' + blockID;
@@ -539,6 +550,9 @@
 		$(document).ajaxError(function(event, jqxhr, settings, thrownError) {
 			Bugsnag.notify("AjaxError", thrownError + ' ' + settings.url);
 		});
+		
+		//init search link
+		initOpenSearchModal();
 		
 		//helper fn
 		jQuery.fn.exists = function(){return this.length>0;} //use like: if($(selector).exists())....

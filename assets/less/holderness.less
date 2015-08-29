@@ -93,6 +93,70 @@ body {
 	height: 100%;
 }
 
+#site-search-modal {
+	.modal-title {
+		font-family: @small-caps-fontface;
+		font-weight: @small-caps-fontweight;
+		text-transform: @small-caps-transform;
+		font-size: 1.6em;
+		color: @holderness-blue;
+	}
+	.modal-footer {
+		.btn-primary {
+			color: #fff;
+			font-family: @small-caps-fontface;
+			font-weight: @small-caps-fontweight;
+			text-transform: @small-caps-transform;
+		}
+	}
+	.help-block {
+		font-size: .9em;
+	}
+	.btn-group-lg {
+		.btn {
+			height: 46px;
+		}
+	}
+	.st-search-container {
+		.st-search-summary {
+			font-family: @main-body-fontface, serif;
+			font-weight: 400;
+		}
+		.st-search-pagination {
+			font-family: @main-body-fontface, serif;
+			font-weight: 400;
+			a {
+				color: @holderness-blue;
+			}
+		}
+		.st-search-results {
+			.st-ui-type-heading {
+				font-family: @small-caps-fontface;
+				font-weight: @small-caps-fontweight;
+				text-transform: @small-caps-transform;
+				font-size: 1.1em;
+				em {
+					font-weight: normal;
+					//font-style: italic;
+				}
+			}
+			.st-ui-type-detail {
+				font-family: @main-body-fontface, serif;
+				font-weight: 400;
+				font-size: 16px;
+				max-height: 2.8em;
+				em {
+					font-weight: 400;
+					font-style: italic;
+				}
+				.st-ui-type-detail-bold {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
 body.index {
 	.page-content {
 		@media (min-width: @screen-xs-min) {
