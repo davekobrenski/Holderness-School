@@ -38,7 +38,11 @@
 		<meta property="og:url" content="<?=PUBLIC_URL_BASE . ($pageData["isHomePage"] == 1 ? '' : $pageData["urlSlug"])?>" />
 		<meta property="og:description" content="<?=$pageData["ogDesc"]?>" />
 		<meta property="og:site_name" content="<?=$thisOrgName?>" />
-		<meta property="og:image" content="<?=$image["url"]?>" />
+		<meta property="og:image" content="https://<?=$_SERVER["SERVER_NAME"]?><?=$image["url"]?>" />
+		
+		<!-- swiftype search data -->
+		<meta class="swiftype" name="title" data-type="string" content="<?=$pageData["pageTitle"]?>" />
+		<meta class="swiftype" name="image" data-type="enum" content="https://<?=$_SERVER["SERVER_NAME"]?><?=$twitImage["url"]?>" />
 		
 		<?php if(!empty($pageData["info_twitter"])) { ?>
 		<!-- Twitter Card data -->
@@ -47,7 +51,7 @@
 		<meta name="twitter:title" content="<?=$pageData["pageTitle"]?>">
 		<meta name="twitter:description" content="<?=$pageData["ogDesc"]?>">
 		<meta name="twitter:creator" content="<?=$pageData["info_twitter"]?>">
-		<meta name="twitter:image" content="<?=$twitImage["url"]?>" />
+		<meta name="twitter:image" content="https://<?=$_SERVER["SERVER_NAME"]?><?=$twitImage["url"]?>" />
 		<?php } ?>
 		
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://<?=$_SERVER["SERVER_NAME"]?>/assets/icons/apple-touch-icon-144x144.png" />

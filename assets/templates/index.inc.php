@@ -108,7 +108,7 @@
 ?>
 
 <!-- news / schedule boxes -->
-<section class="container-fluid" id="news-schedule">
+<section class="container-fluid" id="news-schedule" data-swiftype-index="true">
 	<div class="row">
 		<div class="col-sm-6 updates news">
 			<div class="content">
@@ -134,7 +134,7 @@
 </section>
 
 <!-- featured pages -->
-<section class="container-fluid">
+<section class="container-fluid" data-swiftype-index="true">
 	<div class="row featured-pages">
 		<ul class="list-unstyled">
 			<?php

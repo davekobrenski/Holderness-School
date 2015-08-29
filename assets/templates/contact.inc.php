@@ -62,7 +62,7 @@ if(is_array($infoCoordinates)) {
 				?>
 			</ul>	
 		</div>
-		<div class="col-md-8 inner-content">
+		<div class="col-md-8 inner-content" data-swiftype-index="true">
 			<?php
 				include($templatesDir . "/output.inc.php");
 			?>	
