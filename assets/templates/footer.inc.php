@@ -61,7 +61,7 @@
 								<span class="input-group-addon"><i class="fa fa-search"></i></span>
 								<input type="text" class="form-control input-lg st-default-search-input" id="site-search-input">
 								<span class="input-group-btn btn-group-lg">
-									<button class="btn btn-success" type="submit"><i class="fa fa-sign-in"></i></button>
+									<button class="btn btn-success" type="submit">search</button>
 								</span>
 							</div>
 							

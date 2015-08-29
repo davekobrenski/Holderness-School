@@ -109,14 +109,26 @@ body {
 			text-transform: @small-caps-transform;
 		}
 	}
-	.help-block {
-		font-size: .9em;
-	}
-	.btn-group-lg {
-		.btn {
-			height: 46px;
+	.modal-body {
+		.help-block {
+			font-size: .9em;
+		}
+		.input-group {
+			.input-group-btn {
+				button {
+					font-family: @small-caps-fontface;
+					font-weight: @small-caps-fontweight;
+					text-transform: @small-caps-transform;
+				}
+			}
+		}
+		.btn-group-lg {
+			.btn {
+				height: 46px;
+			}
 		}
 	}
+		
 	.st-search-container {
 		.st-search-summary {
 			font-family: @main-body-fontface, serif;

@@ -1,5 +1,5 @@
 <?php
-	$cacheBust = 342063;
+	$cacheBust = 342068;
 	if(!$pageData) {
 		header("Location: /404");
 		exit;
@@ -182,7 +182,9 @@
 									}
 								}
 								echo '<li><span class="social-links">
-								<a href="javascript:;" class="search-modal-open btn btn-social-icon btn-primary btn-round" style="margin-right:15px"><i class="fa fa-search"></i></a>';
+								<a href="javascript:;" class="search-modal-open btn btn-social-icon btn-primary btn-round" data-toggle="tooltip" data-placement="bottom" title="Search the website">
+									<i class="fa fa-search fa-flip-horizontal"></i>
+								</a>';
 									$socialIcons = getSocialIconsArray();
 									if(is_array($socialIcons) && count($socialIcons) > 0) {
 										foreach($socialIcons as $key=>$icon) {
