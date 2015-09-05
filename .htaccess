@@ -141,20 +141,10 @@ AddDefaultCharset utf-8
 <IfModule mod_rewrite.c>
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^([A-Z­a-z­0-9­-]+)/?$ /site/index.php?­page=$1 [L]
-	
-	
+	# RewriteRule ^([A-Z­a-z­0-9­-]+)/?$ /site/index.php?­page=$1 [L]
+	RewriteRule ^([A-Z­a-z­0-9­-]+)/?$ /config/site/index.php?­page=$1 [L] ## <-- when ready to switch over to new template location
+
 	RewriteRule ^podium/default.aspx$ / [R=301,L]
-	
-	# (somewhat) cleaner image urls  -----------------------------------
-	# RewriteCond %{THE_REQUEST} ^GET\ /files/images/
-	# RewriteRule ^files/images/(.*) /config/files/images/$1 [L]
-	
-	# Adaptive-Images -----------------------------------
-	# using CloudFlare Mirage 2 instead? uncomment below to use internal
-	# RewriteCond %{REQUEST_URI} !^/assets
-	# RewriteCond %{REQUEST_URI} !^/config/files/magick
-	# RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
 	
 </IfModule>
 
